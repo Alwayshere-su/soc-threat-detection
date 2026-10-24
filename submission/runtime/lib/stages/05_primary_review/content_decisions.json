@@ -1,0 +1,986 @@
+{
+  "dbbcb7da61c33bafbaf3aa1de1b0de62259073940b34565498ba18c67e79e39a": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "2ef23e7d84f56c1f8848a77ff892094aa780f056dc0ea6b7065fe1a1e86110a3"
+  },
+  "a08b682aafeb512260b9b9fe5a4d8645b435f9ba0e81ee11f70002c674afe832": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "explicit_scanner_signature",
+    "reason": "明确扫描器指纹/协议探测，不等于已实施利用",
+    "confidence": "high",
+    "evidence_sha256": "9361e755bbec39251fc29b45e7f8f65a7f4ac3f4a06eae15e986c022dd94a3fd"
+  },
+  "f77731985ff7d58dbe6ed2677e192a1e65d47b4ade7b7e83f008b2101be86bf9": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "crafted_diagnostic_input",
+    "reason": "特制调试/畸形输入，不属于普通业务值",
+    "confidence": "high",
+    "evidence_sha256": "4d86d3f7fdad02caa087ec1cb5234fe15a59624ddcb65ff9b05fb0b4b315749d"
+  },
+  "28474342bc405113696d37c7f5cd0d5b55fb6dfef522d27c9cf4ef5e0cea9fd8": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "crafted_diagnostic_input",
+    "reason": "特制调试/畸形输入，不属于普通业务值",
+    "confidence": "high",
+    "evidence_sha256": "821244986c4bac06805016f0233eaa9756f919b4bd1d385d81978c7853788c54"
+  },
+  "c86aab6007e9e7cc0f79360ef932b3851b2e11e81792d4cf3c50eb0359d57040": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "explicit_scanner_signature",
+    "reason": "明确扫描器指纹/协议探测，不等于已实施利用",
+    "confidence": "high",
+    "evidence_sha256": "84eb8b46b82d1db408099e5c39049a62fa5490feab8815e142ba2b8f73146d5c"
+  },
+  "05469030ccf06afafef53330fdd714cf5171fb12629de61882965645e23464c8": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "explicit_scanner_signature",
+    "reason": "明确扫描器指纹/协议探测，不等于已实施利用",
+    "confidence": "high",
+    "evidence_sha256": "bf2e0a23de6526c7b3e5e163794aabf6f136ca7294e71415e3e8c20c6ddda6e1"
+  },
+  "d5e9431bac05396bbc2612702023127073724f33328d7a52d14d76881aa8bba5": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "file_parameter_private_config",
+    "reason": "读取参数通过相对越界定位私有配置文件",
+    "confidence": "high",
+    "evidence_sha256": "88d3a937016100488f6e33b9efc186e256dc2980d66e801a25b625881fc0ed52"
+  },
+  "246eb04eb27a4f363927965ab6abce9549b5785f72a8753a872eb452dfea4a1a": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "2ca8f16faf4a16a7329dd3dc1de619067603532ac777ff6ea49a153dc875fb67"
+  },
+  "f3350413e53e776bf4c543bafa3a3abd26dc40c98507d174a4d1a1603c25e032": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "reportserver_private_configuration",
+    "reason": "图表资源读取参数被用于获取权限配置文件",
+    "confidence": "high",
+    "evidence_sha256": "69e6eff69142277aabffe910cc6390c5d236433affb2187983657a986c343f4c"
+  },
+  "b7475ee01f6d537088892edb2832dcc64b01a4c7ab40a9bbb4899619fd1032ad": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "explicit_scanner_signature",
+    "reason": "明确扫描器指纹/协议探测，不等于已实施利用",
+    "confidence": "high",
+    "evidence_sha256": "386b266b9b3bbb437735e10a43dd83f4b9f0aec5ccba11f898b649be207c688b"
+  },
+  "3fc14b50bdddbacb1f732d3a14edfdfba24ed147330007ae4575308094ee84dd": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "853da258abb521740f5a13461aad9e92f63e385da634b0ccd0290d5a25f0e166"
+  },
+  "d38f8545528e194ff8770daf6b88ac6e41c142c5923ca9881bd6592aab413497": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "qlik_route_privilege_bypass",
+    "reason": "字体伪装、跨目录和QRS管理路由组合构成鉴权绕过尝试",
+    "confidence": "high",
+    "evidence_sha256": "dbad049bbd89b1b72b9e5200e6742e61f1a81c0a93c7fec05d407142d26a38d7"
+  },
+  "83324664a2ab9fe5ef86fc564ea59791dd25313af7f0d03dd5daaeb8cce16196": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "explicit_scanner_signature",
+    "reason": "明确扫描器指纹/协议探测，不等于已实施利用",
+    "confidence": "high",
+    "evidence_sha256": "f41db5ade601b13812ee8466c4a29a4abb14f6e52d7cdfd3559600c6138492f9"
+  },
+  "4fa4dfb95f0c2ac02f59b4e9c02fe1b91cbf8b9963130d0517030e7695978027": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "archive_traversal_write",
+    "reason": "压缩包条目越界写入应用/其他目录",
+    "confidence": "high",
+    "evidence_sha256": "4652e0eb9aef742605f0386bce796759c20e9c577cf9f9d10abebc85c039f7d5"
+  },
+  "8f766c9f5ab44b86b410dce11ffe1ad213afb8e2e06f5f1ad118ad95df110ca8": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "crafted_diagnostic_input",
+    "reason": "特制调试/畸形输入，不属于普通业务值",
+    "confidence": "high",
+    "evidence_sha256": "7ba71159e719d79782af1ed4baf3c118e655702a98909a5a3ab53b21528c2ccd"
+  },
+  "9bf77ea31b7ea66f80c26bf9bf4c6070cbe30b9c7c9f38748ea09dabc248d03e": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "396e1c6e7c0028093c3a54d47c6d7e9c210a837c1723a8a94f76e044d08538d3"
+  },
+  "e62e835ea7f5050456356cfe7e3d0161298bda832fb92df563cf3f486ec4eb1a": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "7e2b169dd8d3a1f31011b76c0470cd37a2de59c6bc12d63b64347aa6e0f285f9"
+  },
+  "0650595aae19278354ca4b55e5107743cde80b2da1d13466d8b29286b91e2a01": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "210260a8de758cc8319cfc023c9b28f7b621955182b20a4ac28886b0bfb584a7"
+  },
+  "d2362f31a08870db387598494c92d9a18b3dd88f6ef0be3cf0f1fb561cdb3331": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "10ffda91f99ae32aac887d25babd7fe185e2a925869b95dce020404452180f12"
+  },
+  "f0cf36b482b3ad562d1dc8b0d1094dcd7c6ab1463498db3ffc5926230dbe5b6f": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "bf512b0dd7bb2a5378cc7b718ad6a0d9db3af865fe0e2766450e685f6b75e707"
+  },
+  "cbe856c62f9bd3209b608fd91d2cb088be1c732d9d90e79aa19bf21234b5bff3": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "private_key_or_user_configuration",
+    "reason": "明确访问私钥/私有用户配置文件",
+    "confidence": "high",
+    "evidence_sha256": "5a3a94f47160c4319ebce9a07a703c615038531009ba4b99b655899f13cae229"
+  },
+  "65d7c259f0f8d0c87b56cf0e0d7eb1e84b1611516a1418161d64b297e3202581": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "7cddf0a6781dcbe9f4e8df9bf77979d5d5000b2531284a88d727714c53b15153"
+  },
+  "70a52f92cfc3466216b6f08ea06adefe0192b1ebfa241b03ff3829671c2b54a3": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "wordpress_private_configuration",
+    "reason": "媒体读取参数被用于读取WordPress凭据配置",
+    "confidence": "high",
+    "evidence_sha256": "3e1976af414d0aaa567d2e67dd9b67ba49dd4f8ae73e8b827e0fd11986bee90e"
+  },
+  "454c9050483e7a1ca2f85dd0f9deedad556e5fc474fd78dae63eeb8170e8ebf2": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "79c590ae45119499da0a954b2d2c9e27e89f4ae7107bdb767eeafce0fe170d5f"
+  },
+  "d72faf9353804787d805ef1d9f26e177068d2128559617f8dd11bb19db71dbc0": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "4fc21bbdfb5577ba04f6ea17942ce7d2a5969bd50b9c14a6302ea52e5eb3668a"
+  },
+  "4bf0af2a050296a3bcbe839987ea6d43b5ed590b18baf71dbd907a719bcd3aa8": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "166886c1e4d87f43d4258a908df2e7db5dc7ceb28f785cba3b12479fbe434e08"
+  },
+  "bea245f4d8a2d1d48423e36cdc82f89a764bd4b04a743ea0df40fde065949aaf": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "1b6ba10e2a9cf2d73957b18a636fa9337ce06711dd693344b86646b8e0be4787"
+  },
+  "c08d046026013dc0b44a6a0021dcee406569d89ae2b86f9e8f07dbb61db9d149": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "4619c9888f977282de0faa54691a62606408923ec272e53aab21ef281d4237fb"
+  },
+  "473525a5d132255d84160e5d5a08cc5068ecb7d4026e28b7c6a4d4b866a64863": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "85b4cc77828f90e0a9b2644acca29bfe92cb44f730b2b953c1bb3d01005beb79"
+  },
+  "907dd2413f524c6f3c4a0b101e1edbfe80cbab0b96ddaa313e063b7d46afe9c6": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "68f3b4a0fdffe25e74b067c9d912ce7badef6ad7c06e894429aeff54efbae29e"
+  },
+  "bb3c6a39cc1de2887097df2b964e2d6b63de0dc7c987587399cd97c2387bdf2c": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "5f89f5af8d6aaf2bdd7718a61a0fe675ffd89d35554ac61aaa479840afcce8fc"
+  },
+  "afe58f276602900b50c3039678bd2e37bab1772c39c67850b9c054a50fe9b5b4": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "d28bafa138cfa5776d771809c19b7c2acb22651687933df9c8b7c1a5f7e17e5b"
+  },
+  "dab2020036e076439a8013666ae701be82b90bbd1355fb0cae17012829d34c72": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "a004dd19719a15f8da628081c0e9d9ee53bb57f6800ed50477a2d402bb27a0f4"
+  },
+  "78327ef91bca2c4f89bb60e0b854008d7838cc377d33a8d4031da0cd2786e03d": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "language_local_file_include",
+    "reason": "语言选择参数/头越界加载服务器代码文件",
+    "confidence": "high",
+    "evidence_sha256": "b7f6616748e83e3b6c3012579859a5f516930d140f329c501bc4d5a0e417c918"
+  },
+  "bde158fb351c7fccedd8af898aa4afaba5e6d950abea0fa6f2972080892731d1": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "crafted_diagnostic_input",
+    "reason": "特制调试/畸形输入，不属于普通业务值",
+    "confidence": "high",
+    "evidence_sha256": "acd666244a6fa25b88d4450a6e5c4d416cfae2c7739d18c1870aec447b2ca1ab"
+  },
+  "05ff8aa18c637a8e41a38600adea0099dcbb78e6e5dbf10efcc04af4f382459b": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "sensitive_system_file_read",
+    "reason": "直接请求/参数/头指向系统文件或本地文件协议",
+    "confidence": "high",
+    "evidence_sha256": "ed448de483a77a745f150b021c026ae468a0d3374c0b5fe4cb40b94e9b5e4ca5"
+  },
+  "207943f395096db91e87f32f1147ebbcce4ee34a3d94a983510d6ffe9c533e48": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "nuxt_module_code_loading",
+    "reason": "组件测试入口从data URL加载攻击者提供的脚本",
+    "confidence": "high",
+    "evidence_sha256": "f3911291a08f3fd64e3f4ec1d8135f572fcab43b98e5c5926ef7c4bcbf5382c5"
+  },
+  "76aecccebdf1e659acc76c370fab0f25b4ffa672e2e205aacad7c3b2b568ba5d": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "traversal_config_read",
+    "reason": "路径/参数穿越到具体数据库或应用配置",
+    "confidence": "high",
+    "evidence_sha256": "9a45dce46bce5f5e5d59a40bf21d6f78ee7fb9dbed60451c7eee6519c844cd05"
+  },
+  "49178e3265574a243152736f8c6129eaadd985a22e4319b0c604c37c31ca1a0b": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "sensitive_system_file_read",
+    "reason": "直接请求/参数/头指向系统文件或本地文件协议",
+    "confidence": "high",
+    "evidence_sha256": "95f03ffa45a7d998216b9e8338782aff0bc5793a5fc051549c62696540724d5e"
+  },
+  "ab433484fe00b9730d765554953d4bed367e967b4b6c9a5713853b215c5cd3f0": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "supervisor_forged_admin",
+    "reason": "跨目录管理路由配合伪造管理员头",
+    "confidence": "high",
+    "evidence_sha256": "f707fc824e1149310b5e1e497e1320f01956a56696ec9d9b84263d66d7ffa24f"
+  },
+  "ac353f73113479b30ab78941a1bb30fb6ff308ee1ffe3521895a412edb8895b2": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "supervisor_forged_admin",
+    "reason": "跨目录管理路由配合伪造管理员头",
+    "confidence": "high",
+    "evidence_sha256": "f707fc824e1149310b5e1e497e1320f01956a56696ec9d9b84263d66d7ffa24f"
+  },
+  "5ce2b7fd5e0a68233e6a7c45f6e469be27b044d006aa220e261e306f9d16eeb4": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "2ca8f16faf4a16a7329dd3dc1de619067603532ac777ff6ea49a153dc875fb67"
+  },
+  "dc14ef0553917b18fe3846e7f6da666af2229e1aa2d7c5d9507fa435f7c2aa46": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "binary_execute_chain",
+    "reason": "下载/落地文件配合赋执行权限和启动的命令链",
+    "confidence": "high",
+    "evidence_sha256": "bfc279c67795a25a6cca1899f5750a0e7238db0e8e78b8d98f549f4e39ed94f7"
+  },
+  "768499edf4b53df93faa92da281f58cd4541dade87b97db5f5c2a76678a0ff28": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "traversal_to_private_configuration",
+    "reason": "目录越界指向具体私有配置，而非普通静态相对路径",
+    "confidence": "high",
+    "evidence_sha256": "7c9e4f592db1b4d0a40bb3dffd35962a3b78567d0181d8cc6b0f7509dfff0072"
+  },
+  "e936efe7e7b70aa09a5ab64782eecaa54f26192eb3dc3181cdd55fe2b89400bc": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "explicit_scanner_signature",
+    "reason": "明确扫描器指纹/协议探测，不等于已实施利用",
+    "confidence": "high",
+    "evidence_sha256": "d3291cce523227c24c1ab95d675a870123d3f8fe0bcce01ca3142ebd56806bc2"
+  },
+  "469952441d4705d7c7ad1b60a805ea9e9f46b9931f32cac69876422e2d54ebd6": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "file_parameter_private_config",
+    "reason": "读取参数通过相对越界定位私有配置文件",
+    "confidence": "high",
+    "evidence_sha256": "22d47ac94c8d883775f5a480a644171cdd35fa0aa2c9f59468b78dc973188549"
+  },
+  "bb5cf9b930fcc50f711a1ffd4c08f6ebddd3daa3d9b8bff8d5a74f6dba33d0f2": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "obfuscated_sql_probe",
+    "reason": "参数含可识别的SQL混淆/数据库版本探测组合",
+    "confidence": "high",
+    "evidence_sha256": "458b7c2399a285e33cb954bacde6868978e1b3f20e1e3fdc44be7df09369f26d"
+  },
+  "07b04b64aa34d15482fbfa5e229e32e3780c0ee28e3b838028b12b4cbf48c5f0": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "boolean_sql_injection",
+    "reason": "数值参数拼接非业务布尔SQL条件",
+    "confidence": "high",
+    "evidence_sha256": "e729e9d2d75e7c47e1b9c8e9230ac2959946ef1d4e1c764808a7252bff7e68f8"
+  },
+  "a92e8c408c27f424330b982b0317b51a764736f19465e4b7e6da2b24f6f502b3": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "boolean_sql_injection",
+    "reason": "数值参数拼接非业务布尔SQL条件",
+    "confidence": "high",
+    "evidence_sha256": "5c41457d72380db69594d618e0d8ae4b4e4282ce758402d555f9b655d9179b5b"
+  },
+  "c5c25dc6241e5d52a3c3d989a64bd92b707c52e5c4bfb31668512dfbe657e53a": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "explicit_scanner_signature",
+    "reason": "明确扫描器指纹/协议探测，不等于已实施利用",
+    "confidence": "high",
+    "evidence_sha256": "a5fd656907260b11519735a4465b485140f0ff94af802250c971708355442baf"
+  },
+  "b41fffacba2f740983e30aeb92f59f2292fc81684e8ef320ff8c7fc883f3f397": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "explicit_scanner_signature",
+    "reason": "明确扫描器指纹/协议探测，不等于已实施利用",
+    "confidence": "high",
+    "evidence_sha256": "b924d5afdb57cf7a74469705bc72220ef69514e8bff5337af32c4bdee5490280"
+  },
+  "88c30c62c57d3643900c206127ee3e8c6ae80d89717962259c9c0f4ee358bba6": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "relative_private_config_read",
+    "reason": "相对目录逃逸定位应用内部配置文件",
+    "confidence": "high",
+    "evidence_sha256": "bbd027a6ec23cb55aecf84e40730e1afb0d3b766cce16f6aa38f7e6289415c57"
+  },
+  "868139e8a7d89f83af009ff91be16260542fc5ab4184da76e79744126fced5b5": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "relative_private_config_read",
+    "reason": "相对目录逃逸定位应用内部配置文件",
+    "confidence": "high",
+    "evidence_sha256": "bbd027a6ec23cb55aecf84e40730e1afb0d3b766cce16f6aa38f7e6289415c57"
+  },
+  "ec51fade19a06ee70c2ed55713b63d4a949da21807f7264cadf49e2df925fdb7": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "relative_private_config_read",
+    "reason": "相对目录逃逸定位应用内部配置文件",
+    "confidence": "high",
+    "evidence_sha256": "bbd027a6ec23cb55aecf84e40730e1afb0d3b766cce16f6aa38f7e6289415c57"
+  },
+  "b2ba554d600569eb2f10dcb9e7492b7d973fe56e09ec5f624a862126ac1009b7": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "active_xss",
+    "reason": "直接请求参数或头里有可执行脚本探测",
+    "confidence": "high",
+    "evidence_sha256": "fd0bac1db86347d351285bbb7580c18ea7f45050ff6b533f9ddf0d6b2cd4da7d"
+  },
+  "1d72119d4fb0a8d4843493f874872191b6d12e8716ca29acea309db1f564d6de": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "file_parameter_private_config",
+    "reason": "读取参数通过相对越界定位私有配置文件",
+    "confidence": "high",
+    "evidence_sha256": "c867ff16c9acdc015cb05abf10307bc9fb3d5e9ffe48cb8628fa6aabb27ab13b"
+  },
+  "120ed129669acaf7ab8f598dc350bd94bb58621d834d9ee4ffb4aa8f02c05a7d": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "obfuscated_sql_probe",
+    "reason": "参数含可识别的SQL混淆/数据库版本探测组合",
+    "confidence": "high",
+    "evidence_sha256": "31802a953b58d853e565e8c0e5dce6fa0156a7eab64925cbc8626fc5053e1b10"
+  },
+  "d028cbed37116fae921623adb9c15ad08dcf497aed614d61fe437295a64b2689": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "relative_private_config_read",
+    "reason": "相对目录逃逸定位应用内部配置文件",
+    "confidence": "high",
+    "evidence_sha256": "9a1cb4a0413302246dda2f652a2d7c2e2747da90ca9cfdb37ac2ace3c772c77e"
+  },
+  "883a4863c4be6a5659678624912f5703f80e63e1019dd7d98159b81942fe0a62": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "sensitive_system_file_read",
+    "reason": "直接请求/参数/头指向系统文件或本地文件协议",
+    "confidence": "high",
+    "evidence_sha256": "cfd086c7ba5a089b93339e5f4f91647b2d87e05001f0dd910a95b6a46800e8d5"
+  },
+  "6c19b2455b5e03816bd727a22c2cb604cea74d5f175f7c68626d63a2da8baa60": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "private_key_or_user_configuration",
+    "reason": "明确访问私钥/私有用户配置文件",
+    "confidence": "high",
+    "evidence_sha256": "9a70523f19e6daa97110b01101b5125fefedd027b9dfd2a39b642f122f48c4c0"
+  },
+  "35ec503cbdfbd9b36f3673ae5eca0545c6c487161366db6463609ef061aaa886": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "80273dd8fb260196fa9b22771778a09cf428d6301f244589b19c6008e9a0a63b"
+  },
+  "b869aaeaa6b4bf7fbd7c2e2bf76ebe117b375357c13fcb581f0b69f473416c62": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "sensitive_system_file_read",
+    "reason": "直接请求/参数/头指向系统文件或本地文件协议",
+    "confidence": "high",
+    "evidence_sha256": "d67d053233da4458891462828204560d45c03fd1cb74fee63e6fbdba8442252f"
+  },
+  "abe0571cbb1284976c426517bfacfad91fd44d30329dec6e5f6c61fb24726dc3": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "file_parameter_private_config",
+    "reason": "读取参数通过相对越界定位私有配置文件",
+    "confidence": "high",
+    "evidence_sha256": "a06134ffb6330d04a3b3ed7f57a07b66e8de575f3a3c051231abbd7843f32ee9"
+  },
+  "44668b3fcab3b7eb2b94621abe244abf4931e3d7b16d04c60f29cb1a85b23b9b": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "expression_evaluation_probe",
+    "reason": "非业务表达式探测值被放入服务端输入参数",
+    "confidence": "high",
+    "evidence_sha256": "d76b00e2359d42b41b646bdb1e622f8104b144c88451cee247ced56e2f540fae"
+  },
+  "bfb57f35b6478a222aaa0267e1e96b366d63493bb4fd484b791702b19da28eec": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "expression_evaluation_probe",
+    "reason": "非业务表达式探测值被放入服务端输入参数",
+    "confidence": "high",
+    "evidence_sha256": "152dfd1616984693f611293ad1a04a9be2ff32314434c5492a20fa94b3086631"
+  },
+  "7bbb08ae931810529b8f360645867a86e48591822e35c6a6b1043820eba23a55": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "b2af99c273b978362c21769570448282ce066aab5086b096a12959bb7b21e3b7"
+  },
+  "9f7443220dc82de0f9f15e72f1962420d7666ab5201521224c12b8e5d70e5e0b": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "3aa70f66f0ebb61d846c445f8ec9beac3ab36bc1e793c2dd439fa81cc7925a8b"
+  },
+  "f7de6ed5db0a14e9de8e317be13b500f43c3d61fa8a8927fc33b10c5e45a4e70": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "1899e4de7d14fee1e2ff039592b096d8b42a31e11d74760150ddf937b7fe65cb"
+  },
+  "3852339a10cf64f58cf5dbeb53c5d7cfafddf55293e7ea5631a5210dfe3bad23": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "0fdfe0f81afcce5cfa93c64a35da0453e33f6b1ed0fa97fa613efcbe48623cc6"
+  },
+  "3b0541923c632b3235e3ad109d1136265e88c051839fc44f933cf4e7c8551e1c": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "a668fef3e89889f4b52c1b6ea321eaa3f8e9892342622755afd4fa7bb6a92769"
+  },
+  "69e2db32269e161aad05cb12cb96531969680e1482dd116ff8a75f514086a29f": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "a9d8c8e49fa2648ff9c493f6d376fc1e6e76eeab236ca6fd2d163d37ee144768"
+  },
+  "00c413fd5e6c049daa4d8dbdf9164d38fc36f51adab406fe7b3640300a792531": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "7f3f2c0f4cb672995986b58a33725744422f3bb82e1430352659e0f9d9ad5af7"
+  },
+  "0eeaf8f1df5c66d231252689ca6fd36745d0162dd8247fac219262556d1764dd": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "b2057a0ed3438f662d39ae4fd32367a6bdfc4c02e575966bfb76bde6d262476f"
+  },
+  "bb03e2c79c3896e56d14350e5bbf0a55f7fd87b41b93fcd4e093064468b854fa": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "3252a0abefd1076ced85fed25a22916f1cb0a3704dee4ada2f9489f430782f08"
+  },
+  "0fe649014b16275edabbaa7ee2ada2ceb5b5e501b5a6afc3dc7647c34c0455bc": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "9b091bc91f9673d9da35b28b2af6cfd3a48ab6f14bd105224b6b083a29940ed8"
+  },
+  "9133d33cf135c306a476a2b36f249dadb4a773f66ca190a9bcf4a266c90848c1": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "d39fff685970df29db2baf7e23afb12f73f8427df581b8fba2c4fc3388c2f9f1"
+  },
+  "a36bf0d0daf18c75969cc0522d75df17f6fe363c7a93bc4a5bbaa02bc23fb22a": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "ab9b731607935fa4918b631cd6ac908c8132566b5a543668e1a04a34420a42a0"
+  },
+  "b8f9124b6ec667e96511790f1901ef8919550c85f62db804eab27adaa674540d": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "0a66b3efd21692ce9721dfbe38f4ca68c9bd643a176ef88a62977d01167f01ec"
+  },
+  "bda0c601c0d4109e745d93718c025298e6c4451b7b5c792efa55e0f1f34d176e": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "52167c5f743739002144a9ad89cba59b1edc46d8c8c60da5edb01cd4edac126c"
+  },
+  "60f7ac2e6abb78ad5219b3744ac6916ea8fc86649dc6b6264282b58c345198b0": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "bb65aee4443c794edade40db8cef2e88b85ae8fc96fbec125f6d07c560ea9c4e"
+  },
+  "795fa5cf20b4b1c30356895c17a9f0e518b66098655c3ecd76db366f875ef124": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "fc5fb59373622c7542f2fd9d037dec7deaeefa9515e7d567c02b4c3d079d90f0"
+  },
+  "55338e76ac40ba722c44e14cc56f2b1c1f2964a89711e6560b6040a38773a1a8": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "62844b34be49f16efaf7f2c6b10b1c05b148f0c7ea1c62b728ee8701efff83bd"
+  },
+  "6cb739744b953c24bfed2473204713b727ea0a667c2130708dc09a4ca99775e2": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "a007e7a5edbe5ed69c9b421f64090ba8e8b85d225790ff3f02f30a78f498991a"
+  },
+  "b29aeedb3db01f36bbb6a50028fdd3c0356b3be19c9f5f87082bf8c7afaa44ad": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "4083d1c99a2f781ab5d429669ad1a7137769f9f71d1366b1dbfe868a44557734"
+  },
+  "a57073aa6382f1d3fbe0d87ceff085515e9ad6dab8431567e1a258b6fa661bd3": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "a0d01c47e3752b486763bb350f75d5b83fdca93db275851ada85a4741a6032d8"
+  },
+  "e137df29766b93388d7911f58a4ab612ee525b15701df5484dc73dcbcb1fdb68": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "ca819e3d9f03f9cdf7546a2fee91e34b428a1422f9120a0aab6653eb258a11be"
+  },
+  "77134258c9ade716006d7d04a9c78cc6961c511bca750eb8af4119dec42e2bc3": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "dbc04ea920213e78be5bbee9fedadc5202d1be67a0abbde0a348fb65105d6a86"
+  },
+  "4fecba3566232c38ab2350a4709b9598265227a4d38f72e1e00c21d2bcb7f69b": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "560328d529478f9c21086a56c7e4014708b98b4f91ed39e01f94db9df4ded7ab"
+  },
+  "b5e76d9eb635353db0334467aca1dacc329f64af39e0db86e5ec0704043b6552": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "7f9c3af28c9ad66a3f58367e8184547eb65ea4db14c53c9e8a792bd8c96006d5"
+  },
+  "8d68a0de204cb60a6aec6d2df58f72d065cb8f75dfe783351ffce9ebfbf954cd": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "ccdfa9f92bd15088357f5292ff9aa1faac3c179f5395af580631815c2f0930b3"
+  },
+  "30a62e5b125308a8d0e257fd056f93a26fc2d689054eaf8f6dad7c5b834b072a": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "loopback_server_fetch",
+    "reason": "服务器抓取参数指向本机/元数据地址",
+    "confidence": "high",
+    "evidence_sha256": "31240ee50b80140d042ccafd56ccff102acf70ea5805b6b17633687fe604fd9c"
+  },
+  "b1d8f94acf945bc4b67872b87e4f6505f022225b4e3df5e50e5124fe1c6ccfa3": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "sql_conditional_or_stacked",
+    "reason": "用户值中有SQL条件拼接或堆叠语句",
+    "confidence": "high",
+    "evidence_sha256": "1864015b44085a068f67442848037a9382afdfd06a9acfb8b9e9559d029f9ce5"
+  },
+  "a7193d1891a9e5f0e776a64e5d7837d62aa83444195d10f6214b2a6123d98992": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "7eb3b3eca7866b9b41d9c34307bb446e02d9adcff67cd66b5116ba9f926e1fe4"
+  },
+  "598bae5ac570ccb4ed352af74b3a25bd5af5081ccb0c5d622499967356e3272e": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1"
+  },
+  "1c9e631a6c8c0d6fe8fd364fca50f568f8833d9ac0584758f83ad96da2d2ba1a": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1"
+  },
+  "41230ce95b73cd2e544754bfeda13808d1cedba00ce5bb8d5ed9999e12a476bc": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1"
+  },
+  "8ee3a385bf172b239cf4fc707832ce23de664ef0a3bac263501d139f5097730c": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1"
+  },
+  "7d9400c475fee4efcc3a28e673a029fff161810dc4bb4aa96e2ae2be1d6ca44c": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1"
+  },
+  "2feb8622cfff6e580126b05cda976f30a36bb848354f19f7d95f99a97fa98487": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "8a5edab282632443219e051e4ade2d1d5bbc671c781051bf1437897cbdfea0f1"
+  },
+  "eff04dbc26a254ac55d6f618351cb848eaf92594bc86e97f54efc25a70f2640c": {
+    "parent_label": "malicious",
+    "label": "benign",
+    "category": "business_insert_query",
+    "reason": "带数据库/查询ID的性能数据入库请求",
+    "confidence": "high",
+    "evidence_sha256": "26d0aaa851bbb3d8ae4242f918db65d9bfe51fe6e074e660ac5c91631ed9a567"
+  },
+  "3dd1ac21c4f4fd344bf4293a0fc908c725417dacbf5e7b9a5e6dbb304065c137": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "79952c96c295dee2566cc94fcddfbd5735a0dfed2e5031cb68f9cbec1d92737b"
+  },
+  "fb13564e3f9cdf9a1c632612372f5d5771d565594dd42b40ae92d5274554504b": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "e6fe95bf76afa449a8731ccefced3efde9e64124ec5c09d9d92a3b0dd344546e"
+  },
+  "7d16480d7a2adb583d4cfa63a02aa246e9f1abc7af19f0d31b52c66d1b1d2f45": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "multipart_traversal_write",
+    "reason": "上传目的路径越界，构成任意文件写入探测",
+    "confidence": "high",
+    "evidence_sha256": "113d2c3b76da8b9171996bf91bea73c3bd34333b7c7aa65bce34358aba6658b9"
+  },
+  "84cfc40ac264b3c3bcd5ab34469308b3c5db4471143d6332d2032a4b25fb7ccf": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "multipart_traversal_write",
+    "reason": "上传目的路径越界，构成任意文件写入探测",
+    "confidence": "high",
+    "evidence_sha256": "44c1a67443b99621651534d53f55be98cf7b9b82f3d7df2b65dc456d46d941b9"
+  },
+  "eb4a1af1e31a8d921e971310a12b8e9a7a9ef7c72af5411a374e92a4d9425cec": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "multipart_traversal_write",
+    "reason": "上传目的路径越界，构成任意文件写入探测",
+    "confidence": "high",
+    "evidence_sha256": "44c1a67443b99621651534d53f55be98cf7b9b82f3d7df2b65dc456d46d941b9"
+  },
+  "49130e45b3456e8a6fb42ead105813f3a2fdb3d431123db34db6307c584405ff": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "sensitive_system_file_read",
+    "reason": "直接请求/参数/头指向系统文件或本地文件协议",
+    "confidence": "high",
+    "evidence_sha256": "74acf31844532670be412c65b8251ee55d072549080b1cffdbea6b1a192230a0"
+  },
+  "fc804ee11bfeed906ddced3f359cb10d415287c60ac78be307fb0ecc6d95cd78": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "bcel_class_loading",
+    "reason": "自动类型类加载器携带BCEL字节码，属于代码加载利用组合",
+    "confidence": "high",
+    "evidence_sha256": "38c45ef53ac40920a8cd8a99175a764d056198733074ba0df805d33772bf3ecf"
+  },
+  "a11845a42c392e5be6872235e654d6aa32337b1a7b02dca7766a0c4e6ce8018b": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "coldfusion_metadata_read",
+    "reason": "类元数据参数越界指向密码配置",
+    "confidence": "high",
+    "evidence_sha256": "a9572540d3e91267224b76a7b9e48226d4fed6e4d782825935dce4e59ecf76b0"
+  },
+  "690d5b8c61594fa929daca1da30b7ed5064a89f4aaa42ddfb1b6cc021578ad9f": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "e1cab4191ecaf3ea7bf7d719c74058528118789ec2bcbaa7e02b41102bbf5d49"
+  },
+  "01332d447e8221b8826d7b0d894abfc92b841c170c5464b2834f3e60e056f627": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "shell_substitution_in_value",
+    "reason": "输入值含命令替换及文件输出等动作",
+    "confidence": "high",
+    "evidence_sha256": "fdc456a1a12570c1e045e5ccce8be4f8d4023bbd269cf8cb8ffff16e54681926"
+  },
+  "1ac9eac0029eb15911eb0983224783b69241102a15b8ab9feaf5241b29f853fd": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "category": "public_default_credentials",
+    "reason": "认证中使用公开默认/极弱组合，未展示具体利用",
+    "confidence": "high",
+    "evidence_sha256": "6cb0a346f14611994b14f43eb9954ff002d5ade898cc09edd4e04b62e26f29f2"
+  },
+  "076b5c1782f2e568dd951cc378c69f1b7d83d0f64d9caeff7f50ea06e996e279": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "2e87c90c6c201b2337c796c4b50c8d29620898976496c37ff129ccbddb954e8e"
+  },
+  "64c647b9427dd356ecf3ce0639f1835ecd1599800f76b37c7e0dcc12570b90b7": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "1b14a8be6056bbe573231f09cca7a10c682871be849690984310c7a3a4e850b2"
+  },
+  "0ef674cb71f8cc1ca2ae9ad82c37b5d4652d49a1091b20fa06e558b6c683d5ac": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "expression_evaluation_probe",
+    "reason": "非业务表达式探测值被放入服务端输入参数",
+    "confidence": "high",
+    "evidence_sha256": "7930a80a0d9d0bd3cf7a2c748865a8040154bc965db1cdec77068eefa6b43b61"
+  },
+  "6ac4dcd96015788e499997ef4d4623e16a0056a6ceae1468bd97b6720668022d": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "expression_evaluation_probe",
+    "reason": "非业务表达式探测值被放入服务端输入参数",
+    "confidence": "high",
+    "evidence_sha256": "7930a80a0d9d0bd3cf7a2c748865a8040154bc965db1cdec77068eefa6b43b61"
+  },
+  "bbbd5eb24d4115cb4cda22db700b74efcbf9e6328d679e8489be798b6748ef3a": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "sensitive_system_file_read",
+    "reason": "直接请求/参数/头指向系统文件或本地文件协议",
+    "confidence": "high",
+    "evidence_sha256": "c558181f43adc93027ce5b6b21de825760b43d6f8eba10376d81524da397eec0"
+  },
+  "a3780db9c4c93d91878f83f549da1838031b3247dff4a05bfda405a145cfd275": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "category": "unsafe_exception_deserialization",
+    "reason": "run_as输入含异常类构造协议，属于已知不安全反序列化利用结构",
+    "confidence": "high",
+    "evidence_sha256": "929deb574d76e77709f8dd8631a63106e956eb8bca379c4826711df10a6bf688"
+  },
+  "c179874b17f96501303a859658ef4a8c5701e9f189d1672389602d33b66e7e3f": {
+    "parent_label": "malicious",
+    "label": "benign",
+    "category": "business_sql_api",
+    "reason": "业务SQL接口中的完整查询，UNION不是拼接逃逸",
+    "confidence": "high",
+    "evidence_sha256": "cf1e109286f7b16b35e10b2301c09b41ec078b0b698cb9e7af41ded1420db0a9"
+  },
+  "9aeb041cb37fed3e4c396393bbc763a2e506d369a84eb503b0089dd294537fe4": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "external_ldap_datasource",
+    "reason": "数据源连接参数指向专门回连LDAP服务器",
+    "confidence": "high",
+    "evidence_sha256": "3c46757f1f380961f994bca1bc366a55a504510cd1812fb9b2f9987457b2121f"
+  },
+  "e495d089ae240073448d20ed7c3aea4aecf2328de6bd4fde5290dd9c85427f1a": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "external_ldap_datasource",
+    "reason": "数据源连接参数指向专门回连LDAP服务器",
+    "confidence": "high",
+    "evidence_sha256": "3c46757f1f380961f994bca1bc366a55a504510cd1812fb9b2f9987457b2121f"
+  },
+  "a6918b7f8d1feced42754cb6bfd46d26a7d93f6c714b33fd95aecf9953071357": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "external_ldap_datasource",
+    "reason": "数据源连接参数指向专门回连LDAP服务器",
+    "confidence": "high",
+    "evidence_sha256": "3c46757f1f380961f994bca1bc366a55a504510cd1812fb9b2f9987457b2121f"
+  },
+  "8daea2a229e19b9cc147e5e4e7e231cbd832553e21aa435e2bd06f2afc0706d2": {
+    "parent_label": "malicious",
+    "label": "benign",
+    "category": "business_sql_api",
+    "reason": "业务SQL接口中的完整查询，UNION不是拼接逃逸",
+    "confidence": "high",
+    "evidence_sha256": "22a0425a7377f20266e28ef80d4f6fe76040acbd4106e493648c0b8e659db564"
+  },
+  "623923b79943c911624b912e3f93f1a9cbf385213974800ce12764f138693057": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "category": "direct_command_probe",
+    "reason": "输入值/头中有命令串联、回连或算术执行探测",
+    "confidence": "high",
+    "evidence_sha256": "c214c0886ea7ca9a74506748fb414872f299ad0631c989b1484b7918104279d4"
+  }
+}

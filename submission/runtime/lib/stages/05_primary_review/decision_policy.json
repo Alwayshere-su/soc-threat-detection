@@ -1,0 +1,35 @@
+{
+  "version": "deepseek_independent_adjudication_high_123_v1",
+  "parent_directory": "D:\\@移动杯\\exp\\submissions\\20261017_B_payload_v5_reviewed",
+  "baseline_artifacts": {
+    "decision_policy.json": "0087997babf699354fdb9a26507545c1d8b636be7a4fce7016e80f1be2b6879a",
+    "default_credential_probe.py": "0e49ffbe99ed343104b08ea7facb3b67181f40e63dd76af7ab6948de490a2782",
+    "generation_server_config.json": "ed4afd7d41b00257230052e3757fd37ecea9a83f1c708fe85251f40667336f6c",
+    "LLAMA_CPP_LICENSE": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+    "outer_context_guard.py": "6e5483a3b40c4e9e3c3f989be33824f08d315279028b5b9feaa449330f9bff48",
+    "payload_policy_v5.py": "5f3d24a184e9af7a39de43694eccbb57cdf4353688e77663e3aea6159b6dc283",
+    "predict.py": "fb545e998ff5788c8cb6d1d510c3d0e7f265b046cb023e9989018ad410dc8f89",
+    "qwen14b_asset_manifest.json": "183cdc98f584750775f7e1c76d08a807b6c009ee0cd9f7737a79a94291037a9e",
+    "qwen14b_license_source.json": "049251e81f532d80a08d88bfb5130e073fa6f0b3738f54d3a008eb1ab7eb80cb",
+    "QWEN_LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "semantic14b.py": "703a823e1ede388f389aa564319502d3e45a5bd4e710ee309c34b6b0c4e483ab",
+    "semantic14b_cache_manifest.json": "b98d46caef2c6d554e60beebd54e96ad89eb5151ae9160a780878f76591595cb",
+    "semantic14b_frozen.json": "20cda35b87de84b247bab67b445da4df61c67e37c7513dd5767412801db91477",
+    "semantic14b_gate.py": "e96bc78c5d9ab6c0ce5bdd8f878624509c2b38a2f4cc9f0d6cefc03d37c11c56",
+    "semantic14b_manifest.json": "7efe20c0ef3cab460bf3eeef366a9ba462dae07b13199a294c591ce81e331bc5"
+  },
+  "baseline_prediction_sha256": "4f62a543ef9db5843519a169f88695e37f1ac3167c60b6949fea0ad348e5b410",
+  "review_artifact_manifest_sha256": "45526de2f652df53818399f6600f09eeda4b007e67e24d6e23693545aad35e29",
+  "selection_sha256": "9a93e5568f6beea1ef8311ae500cc56ce01052f647f1c33da0c1a1bbbf99a742",
+  "allowed_input_hashes": [
+    "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+    "ca4a6ddc6cfda4c67d336c0ff75c67efedaded0a034213c27d9dad6b22266182"
+  ],
+  "approved_rows": 123,
+  "distinct_content_keys": 123,
+  "confidence_is_calibrated_probability": false,
+  "previous_36_policy": "31 overlap retained; 5 without high-evidence support are excluded",
+  "no_new_API_requests": true,
+  "official_score": null,
+  "expected_prediction_sha256": "2f31d680a9dc349ee250608566c1c544631fbc0e35dfd8a79c010d980f2686e8"
+}

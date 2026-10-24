@@ -1,0 +1,287 @@
+{
+  "rows": 55837,
+  "prediction_sha256": "7223e0464ea6b0c584825ab82de8d8dfddbecbca17a480175e4fc5a959bc88e5",
+  "prediction_counts": {
+    "benign": 33021,
+    "malicious": 16994,
+    "suspicious": 5822
+  },
+  "payload_prediction_counts": {
+    "benign": 3009,
+    "malicious": 2003,
+    "suspicious": 825
+  },
+  "changed_rows_from_semantic_guarded": 2814,
+  "changed_non_payload_rows": 0,
+  "change_reasons": {
+    "sensitive_file_probe": 464,
+    "sensitive_traversal": 384,
+    "sql_error_or_time": 315,
+    "executable_file_upload": 129,
+    "sql_union": 126,
+    "v2_explicit_scanner": 122,
+    "v2_fastjson_network_autotype": 115,
+    "java_deserialization_gadget": 93,
+    "v2_jsp_asp_execution_upload": 87,
+    "file_inclusion": 87,
+    "xss_script": 76,
+    "v2_xstream_ldap_graph": 68,
+    "traversal_probe": 62,
+    "shell_injection": 58,
+    "v2_sensitive_endpoint_probe": 54,
+    "v2_default_credential_probe": 46,
+    "shell_command_parameter": 44,
+    "v2_shell_marker_write": 43,
+    "java_runtime_exec": 37,
+    "jndi_lookup": 36,
+    "v2_xxe_remote_parameter_entity": 35,
+    "xss_event_handler": 26,
+    "download_pipe_shell": 26,
+    "v2_loopback_ssrf_probe": 26,
+    "v2_absolute_sensitive_file_parameter": 25,
+    "v2_java_ognl_execution": 24,
+    "v2_short_traversal_probe": 21,
+    "v2_numeric_identifier_quote_probe": 20,
+    "v2_shellshock_function": 18,
+    "v2_template_arithmetic_probe": 16,
+    "php_code_execution": 15,
+    "java_reflective_loader": 14,
+    "sql_boolean": 11,
+    "v2_command_execution_parameter": 10,
+    "management_data_probe": 10,
+    "v2_sql_waitfor_compact": 9,
+    "xss_attribute_breakout": 9,
+    "v2_jdbc_deserialization_config": 9,
+    "v2_jsp_embedded_script": 8,
+    "php_system_command": 7,
+    "v2_shell_marker_tee": 5,
+    "v2_sql_boolean_unquoted": 4,
+    "v2_server_side_include": 4,
+    "xss_javascript_uri": 3,
+    "v2_encoded_java_execution": 2,
+    "v2_xxe_file_entity": 2,
+    "v2_fastjson_gadget": 1,
+    "v2_sql_file_write": 1,
+    "v2_php_short_tag_code": 1,
+    "sql_identifier_expression": 1,
+    "download_and_execute": 1,
+    "traversal_to_shell": 1,
+    "v2_windows_type_command": 1,
+    "uploaded_exploit": 1,
+    "v2_hostname_shell_injection": 1
+  }
+}
+{
+  "rows": 55837,
+  "prediction_sha256": "f8954a55990450d8da84339c8d24a707283382de0857d1785c3f0fa3eb92274c",
+  "counts": {
+    "benign": 32633,
+    "malicious": 17382,
+    "suspicious": 5822
+  },
+  "payload_counts": {
+    "benign": 2621,
+    "malicious": 2391,
+    "suspicious": 825
+  },
+  "semantic_changes_from_native": 388,
+  "semantic_transitions": [
+    {
+      "before": "benign",
+      "after": "malicious",
+      "rows": 388
+    }
+  ],
+  "probe_mapping_changes": 0
+}
+{
+  "dataset_stage": "B",
+  "status": "unsubmitted",
+  "rows": 55837,
+  "input_sha256": "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+  "prediction_sha256": "cbe86be332d7ccb2db8cc64e7652829c9b59dc7ff012735cd2a94832970d4ca2",
+  "parent_official_score": 0.94865293,
+  "parent_sha256": "f8954a55990450d8da84339c8d24a707283382de0857d1785c3f0fa3eb92274c",
+  "prediction_counts": {
+    "benign": 32435,
+    "malicious": 17907,
+    "suspicious": 5495
+  },
+  "payload_counts": {
+    "malicious": 2916,
+    "benign": 2423,
+    "suspicious": 498
+  },
+  "additional_threat_predictions": 198,
+  "coverage_reasons": {
+    "shell_command_separator": 28,
+    "java_xml_workcontext_gadget": 22,
+    "xxe_external_entity": 20,
+    "java_serialized_dns_gadget": 12,
+    "casefolded_base64_sql_signature": 12,
+    "semicolon_path_traversal": 12,
+    "java_serialized_exec_gadget": 8,
+    "explicit_shell_command_argument": 8,
+    "specific_sensitive_resource_probe": 8,
+    "dynamic_loader_environment_probe": 8,
+    "couchdb_duplicate_roles": 6,
+    "sensitive_file_argument": 6,
+    "jsp_executable_upload": 5,
+    "exchange_proxy_resource_chain": 5,
+    "configuration_file_argument_probe": 5,
+    "phpinfo_callback_probe": 5,
+    "php_upload_self_delete": 4,
+    "sql_string_boolean_probe": 3,
+    "ognl_context_execution": 3,
+    "sql_hash_function_probe": 3,
+    "sql_hash_probe": 2,
+    "sql_union_obfuscated": 2,
+    "fragment_xstream_ldap_graph": 1,
+    "preload_elf_execution": 1,
+    "postscript_pipe_execution": 1,
+    "sql_file_write": 1,
+    "fragment_jdbc_deserialization_config": 1,
+    "casefolded_base64_execution_signature": 1,
+    "fragment_sql_waitfor_compact": 1,
+    "jsp_marker_execution": 1,
+    "phpinfo_information_probe": 1,
+    "sql_false_boolean_probe": 1,
+    "sql_delay_function_parameter": 1
+  },
+  "threat_subclass_mapping_changes": 366,
+  "probe_mode": "selective",
+  "changes_from_scored_parent": 559,
+  "transitions": [
+    {
+      "before": "benign",
+      "pred_label": "malicious",
+      "rows": 164
+    },
+    {
+      "before": "benign",
+      "pred_label": "suspicious",
+      "rows": 34
+    },
+    {
+      "before": "suspicious",
+      "pred_label": "malicious",
+      "rows": 361
+    }
+  ],
+  "policy_version": "payload_fragment_v3",
+  "subclass_policy": "selective_payload_subclass_v1",
+  "changed_non_payload_rows": 0,
+  "parent_recomputed": true,
+  "retained_payload_suspicious": 498,
+  "subclass_promotion_reasons": {
+    "direct_sensitive_file_read": 337,
+    "sensitive_management_dump": 9,
+    "client_selected_function_loader": 5,
+    "explicit_fragment_shell_command_separator": 4,
+    "explicit_fragment_sql_string_boolean_probe": 4,
+    "explicit_fragment_sql_diagnostic_function": 2,
+    "explicit_fragment_sql_error_based_count": 2,
+    "explicit_fragment_fragment_shell_marker_write": 1,
+    "explicit_fragment_executable_traversal_write": 1,
+    "explicit_fragment_sql_hash_function_probe": 1
+  },
+  "private_answers_read": false,
+  "official_B_labels_available": false,
+  "official_score": null,
+  "external_model_inference_used": false,
+  "parent_local_model_cache_replayed": true,
+  "limitations": [
+    "New detections and subclass mapping are hypotheses, not proven corrections.",
+    "The two known aggregate scores do not determine per-row labels.",
+    "Casefolded-base64 signatures are byte-pattern matches, not lossless decoding.",
+    "Selective subclasses follow evidence strength but remain unvalidated against official B labels."
+  ]
+}
+{
+  "rows": 55837,
+  "prediction_sha256": "5bfe351fc2e2863222fbeb86b1542dcf78d60a04cd1e5f00919ec0af1c4831ef",
+  "label_counts": {
+    "benign": 32214,
+    "malicious": 18116,
+    "suspicious": 5507
+  },
+  "payload_label_counts": {
+    "malicious": 3125,
+    "benign": 2202,
+    "suspicious": 510
+  },
+  "native_changes": 227,
+  "semantic_changes": 75,
+  "changed_rows_from_scored_best": 302,
+  "new_threat_predictions": 221,
+  "transitions": [
+    {
+      "before": "benign",
+      "pred_label": "malicious",
+      "rows": 128
+    },
+    {
+      "before": "benign",
+      "pred_label": "suspicious",
+      "rows": 93
+    },
+    {
+      "before": "suspicious",
+      "pred_label": "malicious",
+      "rows": 81
+    }
+  ]
+}
+{
+  "rows": 55837,
+  "prediction_sha256": "4f62a543ef9db5843519a169f88695e37f1ac3167c60b6949fea0ad348e5b410",
+  "label_counts": {
+    "benign": 32010,
+    "malicious": 18281,
+    "suspicious": 5546
+  },
+  "payload_label_counts": {
+    "malicious": 3290,
+    "benign": 1998,
+    "suspicious": 549
+  },
+  "changed_rows_from_scored_best": 255,
+  "native_recovery_changes": 130,
+  "default_credential_changes": 19,
+  "outer_context_corrections": 8,
+  "semantic_changes": 99,
+  "transitions": [
+    {
+      "before": "benign",
+      "pred_label": "malicious",
+      "rows": 138
+    },
+    {
+      "before": "benign",
+      "pred_label": "suspicious",
+      "rows": 74
+    },
+    {
+      "before": "malicious",
+      "pred_label": "benign",
+      "rows": 8
+    },
+    {
+      "before": "suspicious",
+      "pred_label": "malicious",
+      "rows": 35
+    }
+  ]
+}
+{"status": "reproduced", "rows": 55837, "changes": 123, "sha256": "2f31d680a9dc349ee250608566c1c544631fbc0e35dfd8a79c010d980f2686e8", "new_API_calls": 0}
+{"status": "reproduced", "rows": 55837, "changes": 69, "sha256": "32f8a9fb5e70e5f816d54fdf7093868608394f90d5ffb89e3245f8b408200071", "new_API_calls": 0}
+{"status": "reproduced", "rows": 55837, "merged_changes": 137, "sha256": "5c109ee6500e81deb2f99b4c2c3bef74d0323600b91c575a7e4ce062c3983632", "new_API_calls": 0}
+{"status": "reproduced", "rows": 55837, "changes": 56, "sha256": "8c43cee4841e1949502ad9ed0abc8ffecd6f4d0abb0c70a725991155ce55b2b9"}
+{"status": "reproduced", "rows": 55837, "new_changes_from56": 29, "sha256": "428e467caf685f7207bbda466f47bc24cc120ba788963a47c10315611aeaefab"}
+{"status": "reproduced", "rows": 55837, "new_changes": 41, "sha256": "65af39b3475504165ff418f04dbfba5b9624646873652c850d3333ec03aa14ce"}
+{"status": "reproduced", "rows": 55837, "new_changes": 44, "sha256": "8e9d39a9c71c7ae3d7239e77a8cc8a3555af7c6e79d007fe2b2307a93ad2156f"}
+{"status": "reproduced", "rows": 55837, "new_changes": 63, "sha256": "dad5c5e59d64bc6d8220a2f8eeca34b79cf7bbb7467bf6ccb34d535b7b3f1f3d"}
+{"status": "reproduced", "rows": 55837, "new_changes": 6, "sha256": "fd15454a2ad8cc958f1cefea600130d29ef13a0069fca776c066d648e3ba16ec"}
+{"status": "reproduced", "rows": 55837, "new_changes": 5, "sha256": "b5af9fd7729bd86f1e4ceb26c45b18962ebfa4b723fbac946ead4d919bd534a3"}
+{"status": "reproduced", "rows": 55837, "new_changes": 3, "sha256": "09b3b4bc90812fe6443a9a6648a340615fef3c7566a9882d76b43bf59229eacf"}
+{"status": "reproduced", "rows": 55837, "new_changes": 6, "metadata_corrections": 1, "sha256": "d792a4f9eb6327bf7b4af157e4e8940dd3310954a728e10db4f91f230a26189d"}

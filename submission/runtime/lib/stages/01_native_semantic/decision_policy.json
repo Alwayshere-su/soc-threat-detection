@@ -1,0 +1,18 @@
+{
+  "dataset_stage": "B",
+  "status": "prepared_unsubmitted",
+  "parent_official_score": 0.92273511,
+  "native_policy": "payload_request_v2",
+  "semantic_gate": "semantic_evidence_gate_v2",
+  "probe_mode": "balanced",
+  "scope": "Only native-benign payload rows eligible for local semantic proposals",
+  "training": "Original frozen models fit official train only; pretrained Qwen inference, no fitting on competition answers",
+  "private_answers_read": false,
+  "B_labels_available": false,
+  "uncertain_context": "Retain native decision",
+  "non_payload_rows_changed": 0,
+  "limitations": [
+    "Manual controls are not a blind accuracy estimate.",
+    "Official class convention and per-row correctness are unknown."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "f466342754f249100a601ab1aa702c4b8eb1ee12f6a1b39fbd02e541de138719": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "native_security_record_explicit_scanner_probe",
+    "evidence_sha256": "f4a0e8046bcd9801282f49d00811a77396d5b89c8be6df5f1d8537731319f38b"
+  },
+  "7869a0b1404b32b692b88084d7c63132baf67ff684cfc06a0d7cb86ae1b50aba": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "native_h2_remote_script_probe",
+    "evidence_sha256": "44e39761afc1bf77930cde105e7c2eae448b8bfea8e6a9fbd790bb28ba2b2d17"
+  },
+  "28bb528d50ab7cbc3ddd0cae7fc8abef5a31a929c9b246cec1c3edc0b42b2d77": {
+    "before": "suspicious",
+    "after": "benign",
+    "category": "withdraw_kubeview_route_only_probe",
+    "evidence_sha256": "b4493d0237a26ef56df5f2a213fc5a64cb26c7421dc0e3fa3b68616d8518c02c"
+  },
+  "dd63d5329a777550963230d4f926c832285fae4105025da73df5685e23c41e84": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "fortinet_nodejs_malformed_forwarded_probe",
+    "evidence_sha256": "7538edbb2ecb951f40401a8f7db829a708d82f6797469ff2395655a320a13ae5"
+  },
+  "2081afce5e295b027c9f02380ab78bf57d195bd6fed0c2c25e1f873078de80e7": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "hikvision_public_magic_query_auth_bypass",
+    "evidence_sha256": "4a162a281ee3700877d2319280ff7c66126f7b522987342000a71615469fe695"
+  },
+  "6ddad9693f5e75656bedf16ed13fcb3d97ce406c30ccc3bcdce82bf0a1a6ad6e": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "hikvision_public_magic_query_auth_bypass",
+    "evidence_sha256": "4a162a281ee3700877d2319280ff7c66126f7b522987342000a71615469fe695"
+  }
+}

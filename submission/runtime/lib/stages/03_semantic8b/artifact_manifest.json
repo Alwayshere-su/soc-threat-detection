@@ -1,0 +1,14 @@
+{
+  "decision_policy.json": "b207a62df4bb60827a42f795760242fb028c27444796e75aa13939d7dbc23dd4",
+  "LLAMA_CPP_LICENSE": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+  "payload_policy_v4.py": "17e75f0f55805187a5e72eaf23d4f240235e1e9f58611e5d5d1f7336c93950d5",
+  "predict.py": "4175a2d5718a82e17b712690b44edd1d63b2ce3ad5e806f635ac16f01d12c268",
+  "qwen8b_asset_manifest.json": "24f0b3f5998f2c1c50272ccb777731dc6afb845d9dc7c4f35abcdb5ebeca3ed6",
+  "qwen8b_license_source.json": "6186f9890633b6ee763fc2c172d16c03cc67299f01487505fe7539e17a7a148c",
+  "QWEN_LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+  "semantic8b.py": "67d1458cc5f09e5efe5d99dca48d41f1c8c9c65f3d4cb9f6e9d0d3df50141f6d",
+  "semantic8b_cache_manifest.json": "ed63d5a2811adb9605e4340e729f8321ff9ec7ae996abc7b66784fe79448db83",
+  "semantic8b_frozen.json": "9a9ce6a50f75f18aac9829e71af66b43353705d5c96b300c6491797ed82bec5b",
+  "semantic8b_gate.py": "0b83fb3cf55bcf90a9525eb77de753357b8c8f46169aa4ab532c9412be853e51",
+  "semantic8b_manifest.json": "bd7c02dc36fe0a7837827385da8f1a5b50f91bb406e5e6933575020e830d7ff5"
+}

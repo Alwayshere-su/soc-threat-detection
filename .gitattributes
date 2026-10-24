@@ -1,0 +1,6 @@
+# 默认按文本处理并统一换行
+* text=auto eol=lf
+
+# manifest.json 用 SHA256 绑定文件字节，禁止 Git 做换行转换
+# 注意：这条必须放在 * text=auto 之后，gitattributes 以最后匹配的规则为准
+submission/** -text

@@ -1,0 +1,25 @@
+{
+  "version": "payload_extended85_v1",
+  "new_rows": 44,
+  "new_content_keys": 44,
+  "total_changes_from_scored_best": 85,
+  "parent_prediction_sha256": "65af39b3475504165ff418f04dbfba5b9624646873652c850d3333ec03aa14ce",
+  "parent_artifacts": {
+    "artifact_manifest.json": "43785b24d5c7e2a96d36882c71d38268d4c81c604cfc3bf213859ca51bcce6ad",
+    "content_decisions.json": "e36acd51f488fd6c2ced05d74e2089c90f5abf7587538c6536edc7826bd05d21",
+    "decision_policy.json": "4a6b8498a914dc972c7445c6f9b4d75a123e7722c76304b535f062fcc3630d93",
+    "final_policy.py": "d0cd34b3413432ba002d6eb4fc84d9d23c86e84a40d2bdd6bdc7aacd3b7be961",
+    "predict.py": "0c89ba179f45fdf167b51b7e05afd69370c271ef68c9a4e6ae29fee0f03e715c",
+    "request_normalization.py": "683a01a62c97f47f0bbe080355acb8278b55248c0b58b20b8efe97bb06c40951",
+    "request_recovery.py": "6bbe0c3bd337e73a1e96f6af4b267c721a844408dbbb08313a5b613fabdf8ea3",
+    "request_view.py": "bc9c207cc2598643e0cf0bc0ba29b8617d2d1a8a3f4b6698b926eea00ad657f6"
+  },
+  "allowed_input_hashes": [
+    "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+    "ca4a6ddc6cfda4c67d336c0ff75c67efedaded0a034213c27d9dad6b22266182"
+  ],
+  "scored_best": 0.97134111,
+  "official_score": null,
+  "submitted": false,
+  "prediction_sha256": "8e9d39a9c71c7ae3d7239e77a8cc8a3555af7c6e79d007fe2b2307a93ad2156f"
+}

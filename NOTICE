@@ -1,0 +1,27 @@
+# NOTICE
+
+本仓库中由作者编写的源代码、规则、提交结果与两个 LightGBM 模型权重，
+采用 Apache License 2.0 授权，见 [LICENSE](LICENSE)。
+
+## 第三方组件
+
+以下资源**不随本仓库分发**，仅以 URL 或许可证说明的形式被引用：
+
+- **Qwen3-4B-Instruct-2507 / Qwen3-8B / Qwen3-14B**：由 Qwen 团队发布，
+  遵循各自的模型许可证；仓库中只保留下载地址与许可证来源。
+- **DeepSeek API**：外部模型服务，仓库不包含任何 API 凭据或原始请求日志。
+  1,567 条辅助判断以内容哈希为键冻结在
+  `submission/runtime/lib/stages/01_native_semantic/semantic_predictions_frozen.json`，
+  不包含原始日志文本。
+- **LightGBM / numpy / pandas / pyarrow / scikit-learn** 等 Python 依赖：
+  `submission/requirements.txt` 固定版本，遵循各自开源许可证。
+
+## 比赛数据
+
+赛题、官方训练/验证/测试数据与评分规则归赛事主办方所有。
+本仓库不包含官方数据、验证集私有答案或由官方数据派生的特征缓存。
+
+## 免责声明
+
+本项目是竞赛交付物与赛后整理，不是生产级安全产品。
+对输入数据的格式与分布有强假设，直接用于真实环境前需要重新验证。

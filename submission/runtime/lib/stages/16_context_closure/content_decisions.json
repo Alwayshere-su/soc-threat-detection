@@ -1,0 +1,20 @@
+{
+  "d8c1f88d047d45e753540b4ff0b18294d681e9ec906ee00d65e44be254a6823b": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "same_transaction_jsp_write_verification",
+    "evidence_sha256": "63a27cd353fd22799c4399201fae18d5f9955589015d59df798d50baef8a66b9"
+  },
+  "cf07b5d697433fc4ad175b3b8a9690b19821eeca1dc1972d14be261a2e6413b1": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "same_transaction_jsp_write_verification",
+    "evidence_sha256": "28a5c355d8b060c44df05daa6b42cbf2021b8e318efda9d6f3263e94fee6c588"
+  },
+  "945d45d9eef5aab40a9d3135b055d3891fc5fedf432a2360c8026d40a7b5308c": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "days_unauth_admin_account_creation",
+    "evidence_sha256": "6c7cf4bf6865680e8e673a89030ef90238fb9c2fb3fd1acf5a9b5e53d8fce673"
+  }
+}

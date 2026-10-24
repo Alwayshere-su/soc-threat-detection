@@ -1,0 +1,8 @@
+{
+  "content_decisions.json": "6bd8a84ffbe0c7337c23353d9e05bd7d7b66df042708b9cbec4a5f346a9d07f4",
+  "decision_policy.json": "a728d8a1bc49424b56ed28f3a44cde318dd0f6b9f9c39bcbac31cf985c54c9d1",
+  "payload_policy.py": "776050b03a7fee252a5ad3956298102abe187609bd11f836f9ec8a207fbd220d",
+  "predict.py": "9326ef0499a23dc75189a8ddc9c5eb8c8c25322cd624bf3d3ac8ec995b277b7d",
+  "request_normalization.py": "683a01a62c97f47f0bbe080355acb8278b55248c0b58b20b8efe97bb06c40951",
+  "request_recovery.py": "6bbe0c3bd337e73a1e96f6af4b267c721a844408dbbb08313a5b613fabdf8ea3"
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "rows": 55837,
+  "changes_from_scored_best": 166,
+  "changes_from_context160": 6,
+  "new_binary_changes": 1,
+  "new_subtype_only_changes": 5,
+  "metadata_only_corrections": 1,
+  "all_166_approved_rows_verified": true,
+  "core_50000_unchanged": true,
+  "csv_parquet_new_layer_replays_equal": true,
+  "shuffled_renamed_ids_equal": true,
+  "manifest_file_checks": 923,
+  "policy_validation": {
+    "passed": true,
+    "label_changes": 6,
+    "binary_changes": 1,
+    "subtype_only_changes": 5,
+    "metadata_only_corrections": 1,
+    "negative_controls": 26,
+    "public_vector_crypto_self_check": true,
+    "private_key_search": false,
+    "log_tokens_exported": false,
+    "official_labels_available": false
+  },
+  "root_scored_best_preserved": true,
+  "sha256": "d792a4f9eb6327bf7b4af157e4e8940dd3310954a728e10db4f91f230a26189d",
+  "official_score": null,
+  "submitted": false
+}

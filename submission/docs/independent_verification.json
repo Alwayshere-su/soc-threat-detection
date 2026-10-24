@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "relocated_outside_original_workspace": true,
+  "original_source_model_cache_access_blocked": true,
+  "original_official_input_explicitly_allowed": true,
+  "original_python_environment_used": true,
+  "network_guard_test_passed": true,
+  "original_tree_guard_test_passed": true,
+  "full_inference_reexecuted": true,
+  "new_LLM_calls": 0,
+  "prediction_sha256": "d792a4f9eb6327bf7b4af157e4e8940dd3310954a728e10db4f91f230a26189d",
+  "rows": 55837,
+  "seconds": 68.894,
+  "inference_report": {
+    "passed": true,
+    "rows": 55837,
+    "prediction_sha256": "d792a4f9eb6327bf7b4af157e4e8940dd3310954a728e10db4f91f230a26189d",
+    "input_sha256": "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+    "official_score": 0.97279254,
+    "score_source": "user_reported_in_chat",
+    "package_files_verified": 477,
+    "fresh_native_models_executed": true,
+    "frozen_LLM_and_content_reviews_replayed": true,
+    "new_LLM_generation": false,
+    "API_key_required": false,
+    "network_disabled_in_inference": true,
+    "private_answers_read": false,
+    "input_order_verified": true,
+    "seconds": 66.302,
+    "label_counts": {
+      "benign": 31654,
+      "malicious": 18582,
+      "suspicious": 5601
+    },
+    "intermediates_retained": false
+  }
+}

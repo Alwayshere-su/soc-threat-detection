@@ -1,0 +1,12 @@
+{
+  "file": "Qwen3-8B-Q4_K_M.gguf",
+  "url": "https://huggingface.co/lmstudio-community/Qwen3-8B-GGUF/resolve/07ebe812301319d9947477e3a94ab8aa587bb3af/Qwen3-8B-Q4_K_M.gguf?download=true",
+  "revision": "07ebe812301319d9947477e3a94ab8aa587bb3af",
+  "sha256": "a7676d257b10f3ce23aedba45e64ba61a5aa295f0009d87c5627f6c026a8f35f",
+  "bytes": 5027783968,
+  "pretrained_model": "Qwen/Qwen3-8B",
+  "license": "Apache-2.0",
+  "quantization": "Q4_K_M",
+  "runtime": "exp/tools/local_payload_llm/runtime_b11669_cuda12_4",
+  "competition_data_exported": false
+}

@@ -1,0 +1,17 @@
+{
+  "official_score": 0.97279254,
+  "score_source": "user_reported_in_chat",
+  "score_reported_date": "2026-10-18",
+  "previous_best_score": 0.97134111,
+  "improvement": 0.00145143,
+  "prediction_sha256": "d792a4f9eb6327bf7b4af157e4e8940dd3310954a728e10db4f91f230a26189d",
+  "rows": 55837,
+  "label_counts": {
+    "benign": 31654,
+    "suspicious": 5601,
+    "malicious": 18582
+  },
+  "frozen_stage": "20261018_B_payload_refined166",
+  "submitted": true,
+  "B_per_row_answers_available": false
+}

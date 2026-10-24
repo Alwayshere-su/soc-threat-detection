@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "rows": 55837,
+  "prediction_sha256": "d792a4f9eb6327bf7b4af157e4e8940dd3310954a728e10db4f91f230a26189d",
+  "input_sha256": "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+  "official_score": 0.97279254,
+  "score_source": "user_reported_in_chat",
+  "package_files_verified": 226,
+  "fresh_native_models_executed": true,
+  "frozen_LLM_and_content_reviews_replayed": true,
+  "new_LLM_generation": false,
+  "API_key_required": false,
+  "network_disabled_in_inference": true,
+  "private_answers_read": false,
+  "input_order_verified": true,
+  "seconds": 62.38,
+  "label_counts": {
+    "benign": 31654,
+    "malicious": 18582,
+    "suspicious": 5601
+  },
+  "intermediates_retained": false
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "path_in_release": "runtime/lib/stages/01_native_semantic/champion_model.pkl",
+    "bytes": 34435613,
+    "sha256": "84840f5a76ef1789d1571153c0ba620fb4fb5b338ef26f9470f07f2e75de65f6"
+  },
+  {
+    "path_in_release": "runtime/lib/stages/01_native_semantic/model.pkl",
+    "bytes": 9518734,
+    "sha256": "e2327e76ccf77a12ee8173d1794c995262afd04a76538c34cf4d8527b101898b"
+  }
+]

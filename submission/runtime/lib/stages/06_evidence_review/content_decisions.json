@@ -1,0 +1,347 @@
+{
+  "7f4a55ef40aab02e6b9eacb1cc74244c7a81e6abfab2f0ada672860254896861": {
+    "label": "suspicious",
+    "category": "semicolon_script_route_probe",
+    "evidence_sha256": "7f4a55ef40aab02e6b9eacb1cc74244c7a81e6abfab2f0ada672860254896861"
+  },
+  "ceed12f5fd261dbd0224a778532bfb7be7fd94d14385aaa41200963e44c335b6": {
+    "label": "malicious",
+    "category": "case_preserved_base64_file_read",
+    "evidence_sha256": "74acf31844532670be412c65b8251ee55d072549080b1cffdbea6b1a192230a0"
+  },
+  "271d3e6bba40dc40abc990e547ac434c2143119fc10813d0014bfa554f9867ac": {
+    "label": "suspicious",
+    "category": "callback_domain_route_probe",
+    "evidence_sha256": "32a448cd08d88d8d014fe003444f514bfaa0ff7558d9fd2677a758325706a700"
+  },
+  "7668253aca373ac2b24ff2f139ebcd604d146ad5544b8c6d57333ad0c8e889db": {
+    "label": "suspicious",
+    "category": "management_route_traversal_probe",
+    "evidence_sha256": "d77dee9ad4e708fe0a636dd9d225c15d4c07fc4467eb61e4b8b99d7afa08dda3"
+  },
+  "13916baeba35db211a4a92b00a792703067edd2125a8989339683b32e136c800": {
+    "label": "malicious",
+    "category": "decoded_thinkadmin_file_read",
+    "evidence_sha256": "a032902ca26bf0d1efe11ab45b0ef4c7a22da69bc4f77ae5fd79ce8354c50e7e"
+  },
+  "5eff34447ac63ba1d67fe0e99cd976fcf808ac044b609ac0e66f7244e0e71dd2": {
+    "label": "suspicious",
+    "category": "management_route_traversal_probe",
+    "evidence_sha256": "936d29de628c645126df84f01be51de3357b0ac3f0af4dfe6aa9c64029ba9f48"
+  },
+  "1605131963e4925c94b47151c7dec3ceeaae448e4244b46cc9da747ff2136967": {
+    "label": "suspicious",
+    "category": "management_route_traversal_probe",
+    "evidence_sha256": "936d29de628c645126df84f01be51de3357b0ac3f0af4dfe6aa9c64029ba9f48"
+  },
+  "3609475108fe18d19069585186505f4dae46301cc61edf93f290d2adae3562de": {
+    "label": "suspicious",
+    "category": "management_route_traversal_probe",
+    "evidence_sha256": "936d29de628c645126df84f01be51de3357b0ac3f0af4dfe6aa9c64029ba9f48"
+  },
+  "c2e113419ef00e9376421f5c8ef0e6f4d3851c91d7b17db9d2373a16e31cd84c": {
+    "label": "suspicious",
+    "category": "named_execution_probe_with_encoded_argument",
+    "evidence_sha256": "1310dfec5fda2178d1fb4136923b6989b7705340ba391c4c9bbefa1b9c0cdb7b"
+  },
+  "e48061576a8d15689a720c1c6e266b4a43101d23d3a11b8267ce6a3b8fe45fdc": {
+    "label": "suspicious",
+    "category": "quote_in_log_path_probe",
+    "evidence_sha256": "076ee59676f96930303c0c73af66c93686eacccdb0d27eb59b661add3a475b3a"
+  },
+  "c78a3f2ec5663cbccdfd4c5594313bbe7a0fe2d68d5fa3d70b49ef398b507c00": {
+    "label": "suspicious",
+    "category": "explicit_scanner_user_agent",
+    "evidence_sha256": "6a569bd1b41f707165e93197db587dec616ec7f082fbd4092bbd5d7f28c0054e"
+  },
+  "298875da24fa2a24ed3f7987a55f6ddffc230f237a5096db754e14891ed75e66": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "12cd97d67bc245f0a9cd075f7a9b9cc7082466d2d897b69fa7b6757ef94a2226"
+  },
+  "2cfeee2e70e87cee4f9fdf28e87c7bb2e8934e913b38e44b744477a023e1edb9": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1a4ede90351adc7211587825877ec32335324dc09432efb1086cd773576acab2"
+  },
+  "da34ac0ae56c65e2dfa4b234a6c411f9c3372a7b0cbcd218b49080cf69af86f7": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1a4ede90351adc7211587825877ec32335324dc09432efb1086cd773576acab2"
+  },
+  "244b5641b5bae48660566eb82eafc3890cce2d163ff1faf293b9fb3f18ff98f0": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1a4ede90351adc7211587825877ec32335324dc09432efb1086cd773576acab2"
+  },
+  "6fa7183cb916c74633c3ccd50ea77fc4a49a55de9adfe329a2ba1d197aa8a3b4": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1a4ede90351adc7211587825877ec32335324dc09432efb1086cd773576acab2"
+  },
+  "ae8ec221373239a9c38d87abe835ec3e491ef2f04fcaefd2e9a62b795d785080": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1a4ede90351adc7211587825877ec32335324dc09432efb1086cd773576acab2"
+  },
+  "1426fc60cbfd97cf72c2fc6faa2c1f7966e7c89c68ac490e9da3e40b51ec9ffd": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1a4ede90351adc7211587825877ec32335324dc09432efb1086cd773576acab2"
+  },
+  "b164e92b98af12f185d608c024077cc66b3a09c55ba55b91750d82158d22c9ef": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1a4ede90351adc7211587825877ec32335324dc09432efb1086cd773576acab2"
+  },
+  "177a49c072819da7adf21c6fd1a4f300b1d44c1aac1be7f0972ffec7e97f5d6d": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "65cfd52313d36ce4641c3edcdef2593409139149931c9e4900a2e0d55964ff8b"
+  },
+  "2bff83ae859c612e52de1d4c49a718d0134e1e125f48500edee4de4ed4345f15": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "e36653fd1f384c8d017576bf6100203924036a951e2caef4c0b1c58fd51c8bd9"
+  },
+  "28dbc5122cc6522c787dafbc39b06f17e339b741f9cc0adaa75e04be9ec2c671": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "96954ea1562c150e4b9d06bdec44f34ef1bdc670075da7976049ca81540c90b1"
+  },
+  "9a1088e9018d4f8bf4a6e73e3c95b2c2d34c3cd2988ae3f67d37148828a3a053": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "96954ea1562c150e4b9d06bdec44f34ef1bdc670075da7976049ca81540c90b1"
+  },
+  "e39e874e85b01c0e6e0cbc6b0393ba6a7ddcd250eab48daab4a9af256dd9adc5": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "96954ea1562c150e4b9d06bdec44f34ef1bdc670075da7976049ca81540c90b1"
+  },
+  "3be8a087d5317dbf44ad0d21800042383b9b732d543db7d97d1c564bdcba5634": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1e76397299065155ff1f47ef4188f9bf8c2b0592e3290061a49854bef51ea83f"
+  },
+  "115d66f09e9226959803b1a334aeb7aae7a485ce6d18fc661822d71be1e0ccde": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1e76397299065155ff1f47ef4188f9bf8c2b0592e3290061a49854bef51ea83f"
+  },
+  "b77043de799ae424cbb6efa4ba87f0fa8f8bad0be00bb207953d2d471a884fe2": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "1e76397299065155ff1f47ef4188f9bf8c2b0592e3290061a49854bef51ea83f"
+  },
+  "02920dd7efb522c9fe153da12f1234734fc7684edd4746156910eee8939af388": {
+    "label": "malicious",
+    "category": "bitbucket_whitespace_auth_bypass",
+    "evidence_sha256": "35ee7a014e51411de5cc1daac09677ccb0371dfa8eeb757bf3905d05c5502748"
+  },
+  "69a7a8dd4d5c6e48d1e56fbdac51420d07b2270c939ec230b866171b601dcfb7": {
+    "label": "malicious",
+    "category": "decoded_thinkadmin_file_read",
+    "evidence_sha256": "3aba3cb225f8ef8b31a0a41af7f71f7c73d3bb1d32f95613bd6cc69fa18e017c"
+  },
+  "1c295f76efa5496071e8e9a7d7f111d5a5fe52382a5c8d83fefb3ee7d2798338": {
+    "label": "malicious",
+    "category": "database_connection_callback",
+    "evidence_sha256": "271009d5830b0c39fecf04720478f556409ac5e6e0bce5d8f0bd071e253d638c"
+  },
+  "a0aa2bbf83410ccd13cd6ecd5f44384378f70991095136a12be2e26bae910afe": {
+    "label": "malicious",
+    "category": "database_connection_callback",
+    "evidence_sha256": "0ce3af11edc475f012355fa51513531fe5c8f5489bcec7ec6b65ea6cea9ae381"
+  },
+  "7c9f20967d155306945a9615d7cf79cda2bd65a51d2b272db9ca783f5d0d4e67": {
+    "label": "malicious",
+    "category": "database_connection_callback",
+    "evidence_sha256": "85edec3438616ef3af9b0c72c49d533d5463c4c774eb86575b36561670a93556"
+  },
+  "05754e110fc2f9762445d511d372e127e749e6af378dc88aa6fb7ab796a68798": {
+    "label": "malicious",
+    "category": "dlink_backdoor_encoded_command",
+    "evidence_sha256": "455118e41e47e15b3df915d3dc01d4361d7115ec5fb734e675e93bff87473ac4"
+  },
+  "3e67fa6246ec90afbf544a10e3f49ce9232ae4f545bc84bab4dfe8a4f380bc51": {
+    "label": "suspicious",
+    "category": "jsp_user_route_probe",
+    "evidence_sha256": "f2e98fd10c521f04a21202ad30057cef005cc2754f0cbe0fe7eb823910d19124"
+  },
+  "a62d5287f84a3379e8e6a66662b13040a60098edf7080e1c0c70e40eb90bf402": {
+    "label": "suspicious",
+    "category": "explicit_scanner_user_agent",
+    "evidence_sha256": "84e6f9a4325e9997f57b3838e7fe44b15a7d99b259181d826d4b83501db8b287"
+  },
+  "044aa17676046afe60efd2599a7ca63484be99570fd750dc8b7a569e338a569f": {
+    "label": "suspicious",
+    "category": "explicit_scanner_user_agent",
+    "evidence_sha256": "97b4f7a102b10a6b73da17575cc22ae79a266007328ac4ec7b3e4d50839e6a48"
+  },
+  "19b755c65eee7be3940e74f031d1b1a3072a7bc7617bfcb63a403c02f1d28f8d": {
+    "label": "malicious",
+    "category": "confluence_setup_state_bypass",
+    "evidence_sha256": "fc107f70a68fce5636e75f6f17d3b23f0b757b1a81a7f556010ccbbb84699191"
+  },
+  "ee270eb00b5bd2a6f861f76f2137a762476ded5c168d9af170bbfa597ddf34df": {
+    "label": "malicious",
+    "category": "confluence_setup_state_bypass",
+    "evidence_sha256": "fc107f70a68fce5636e75f6f17d3b23f0b757b1a81a7f556010ccbbb84699191"
+  },
+  "fe315d689cf7593c764f2dd31de69fe2f2722b366b29abd165ed8298c4d0e011": {
+    "label": "malicious",
+    "category": "confluence_setup_state_bypass",
+    "evidence_sha256": "fc107f70a68fce5636e75f6f17d3b23f0b757b1a81a7f556010ccbbb84699191"
+  },
+  "31c7798a8653ea02a0d376ee2667eadc014dabb18142e5e0dfc84c4d271dc9de": {
+    "label": "suspicious",
+    "category": "explicit_container_servlet_probe",
+    "evidence_sha256": "e3b10d5d72a333361aaa0d5bbba9cac90a9fb2984b39a9a7f42bda780446a0ef"
+  },
+  "23748f8f2abc3558ca3fad28fadd0d2d9d1b10065ca9f0108bcb0f58a4ad0c30": {
+    "label": "suspicious",
+    "category": "device_debug_bypass_probe",
+    "evidence_sha256": "36c14f96d95e87c0d49530fdd8e7d523936c9c3ad704dcb31aa253c5fa11e735"
+  },
+  "dc6eff551254a1d23a0dec7e24f5c340e8eecd982f45c5b529087f181d6996bc": {
+    "label": "suspicious",
+    "category": "casefolded_encoded_file_probe",
+    "evidence_sha256": "875636e93679bca70269805de91ec982e8a248160ef388b5b877293b4cd7aed3"
+  },
+  "5f414250ff5864c1f25f0abff3f31192c3730adb5143951c56e5150ec601c920": {
+    "label": "suspicious",
+    "category": "casefolded_encoded_file_probe",
+    "evidence_sha256": "875636e93679bca70269805de91ec982e8a248160ef388b5b877293b4cd7aed3"
+  },
+  "93f61c877074e9f0599b0180de56bf8ac30a0f6c1e2e57b74fe0a736911642b7": {
+    "label": "suspicious",
+    "category": "casefolded_encoded_file_probe",
+    "evidence_sha256": "875636e93679bca70269805de91ec982e8a248160ef388b5b877293b4cd7aed3"
+  },
+  "bb82bd8815ea7f8c850f87fe8c77453c34b896d0cd9ab150f1f1fb9197424be9": {
+    "label": "suspicious",
+    "category": "casefolded_encoded_file_probe",
+    "evidence_sha256": "875636e93679bca70269805de91ec982e8a248160ef388b5b877293b4cd7aed3"
+  },
+  "553badc98dfd8bd888c4b29f1d45b16cb92f969f5bfbb2bf8791d2915a88bca2": {
+    "label": "suspicious",
+    "category": "casefolded_encoded_file_probe",
+    "evidence_sha256": "875636e93679bca70269805de91ec982e8a248160ef388b5b877293b4cd7aed3"
+  },
+  "365c52d6dd255b24a7889c4485653685f5b8f1743c315cfe1b9ab1960276f21a": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "efdea4b38a6496bfc9fcf151c8e8f54da47ef9489560f83db6a9ec88705a2fd4"
+  },
+  "7cbd108cfe22b21a32798dffba1974e4009b7ae3a3e06dfd8c00e313bb95d45b": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "4a4a2c6ef856b81dcc8b9e6e4bc96e89a1788729172a47641c4931c4ad3e83c9"
+  },
+  "506346bd6e679f1bccaef8a48847b385b5eb0686100c241ca8ab20b354a40aee": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "46b10c2c9fcb9460c4bcd1146c08b0741cb9b756a828b68f4ee4635c911dd274"
+  },
+  "71059b03d62a732567385d62de1648b6340d730f6791fe03bff4bcc6c9a6b80f": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "e085fc0976c6466a3def9d140013c16da0ae3afb435ea032e837c9867ae72cfa"
+  },
+  "4aa8f316664ff9cc2ffec7cd5c375c5c21801b68bec8d9fbd2569fe8d6c8f7a4": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "a6f5e665392471747a8970ce117dedcc73608d55a1b5a16abe6c27adc77f4bde"
+  },
+  "d5feb7537ba1a36bbdd47e2c11a1b0d3ca695925195785defcefd9af0fc9ac44": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "17857a391c2e07978ec64c54bf5781ffbaf11701d75774385ce24701f5c1eae5"
+  },
+  "f9c119bfc8f67afa3aa21d0a8e42a667ddc9c485be1f6f43e10ce1862c800561": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "dc70407ccee5076f76205f168eb6fce8959644df2a7e6d3fd5f4a69ea23c4178"
+  },
+  "c5ecb502a01c43d531c5eb1f9e31b555a3ceb79e1527f62ad2b8131705ef3d0e": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "6b08dec5f281316555045996fa1a1266ad890f93ba2b1cb0138cd2b6b1d814bb"
+  },
+  "0171b8a1076383f1f2a6036d7833d1966358dfb2563df8f866acf53471655e3f": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "13c763ce9f3ee052adfa60dacb856a06858f62022cc654e3ad7e84552509d4b1"
+  },
+  "86d06f14bb1bc440cece9ab0bf6045f48641a106f598a87fe6c96ce990f1116c": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "267e15f9dc2d35a9d35c570e57b8788ce410e025efa38282669a6dcb36532820"
+  },
+  "75da9d391d1bc6cec2dde00fcb70001725e7fd8d7d5dded529bf7327801b0ff9": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "09f21eac08b9046672dd0d480ce06a2932a589bfde9cc4199fdaf539f1f053ed"
+  },
+  "84ece76cefaab222516820d9025bc917e54d518bec8ea03814a20e2272e801a7": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "94c7984adf4777f7a6d4092d64af2a6d28ae6d0fd42770e14e0721ead908b4b5"
+  },
+  "f2ed41b26bec699e8cf3c74be22eaa50e8408ff974ab7b23294b12da9825b20c": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "a2cde0c4abc8ffc0b045dbf9453b0299654dcd64cac0ab1017daebe17b850a3f"
+  },
+  "f323194356e79de509f06839d5bcd292ca84ceeed819a028be1dab61013a99d6": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "f230ad7c4c5a1434c8f876c243fc13916a1a206b9abb071a78f66da29792fc30"
+  },
+  "f59d1fa682715667d1618e29e32bc4b0a6f92e1a68de11ddaab0e3379a5d840b": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "367a46406760f63dc24e10b65484df99fa709f88376da7cee23ed4e1c74ca930"
+  },
+  "f393478ac21c45261093a71564771e3495b7b7a4437cec55672cd4f443ef35e1": {
+    "label": "malicious",
+    "category": "totolink_configuration_disclosure",
+    "evidence_sha256": "884c42bbcae7cb5394fda72a8179da0197a9dd653f154043a9d2347fb7032564"
+  },
+  "acb05358e070785ad5fef76c485ca6fa8f89dfcc8c90d8fc3ddb1e51bb2b39d3": {
+    "label": "suspicious",
+    "category": "script_upload_destination_probe",
+    "evidence_sha256": "c8c48572b5f68004f8d3e11b4d52615b4ac9e6cfd4ebbe7316e4c88a13ff49ff"
+  },
+  "e98eaf50e25041f8598d57f620fa7472501d4eebb2d633c4073ea4945630f12d": {
+    "label": "suspicious",
+    "category": "command_marker_with_opaque_payload",
+    "evidence_sha256": "f8c83690c18e9736e26adbdc9586b3941d08c36bae3707f8e645f4d6310554f9"
+  },
+  "bd887f3fbfb0a674df5bc34ddf0aaaac50149a402f4a5e2a06fc2ae32fd0a205": {
+    "label": "suspicious",
+    "category": "plugin_install_marker_probe",
+    "evidence_sha256": "9aa1e62140f17da9aa54466e5d06a585902ada1430c13556af562eac8e7b7c96"
+  },
+  "7f14b7693425d6171f4156ee3fd7e618adb10009ee5e239b1dd4cc3c8e2c5fa9": {
+    "label": "suspicious",
+    "category": "plugin_install_marker_probe",
+    "evidence_sha256": "9aa1e62140f17da9aa54466e5d06a585902ada1430c13556af562eac8e7b7c96"
+  },
+  "a410b6d765c81409c89c755bb746f0779cb12c8c09433a1ac56e0d1b26307637": {
+    "label": "suspicious",
+    "category": "plugin_install_marker_probe",
+    "evidence_sha256": "9aa1e62140f17da9aa54466e5d06a585902ada1430c13556af562eac8e7b7c96"
+  },
+  "5841c756c83dff2c61ab5732cfe875af410baf7b3eedbe74216902abd0f4c4ee": {
+    "label": "suspicious",
+    "category": "casefolded_encoded_file_probe",
+    "evidence_sha256": "875636e93679bca70269805de91ec982e8a248160ef388b5b877293b4cd7aed3"
+  },
+  "bc7460056cb3b6900d6acd632cc07bc076fc4f6dea76b62fed3321426d036674": {
+    "label": "suspicious",
+    "category": "unauthenticated_marker_put_probe",
+    "evidence_sha256": "96861c7de341cedd32490505d6b41d048ef639c64d78f14e8ded551bb8baa831"
+  }
+}

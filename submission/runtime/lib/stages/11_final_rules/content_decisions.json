@@ -1,0 +1,248 @@
+{
+  "3ee19cf79fb8762ff8bfcfa918612e2eb86d1f15430fa91db77a2b04a3c4b07b": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "minio_bootstrap_environment_probe_fragment",
+    "evidence_sha256": "5e73609f22edceedbc57a36a3000014c9ea2beadccc0256263cba76996cdc867"
+  },
+  "4acd1c48ed71f95ca2ff9d89cfea73fe76aed5bded648a70041598d17a1c3cb7": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "semicolon_auth_traversal_fragment",
+    "evidence_sha256": "93093c87dc3d3f2a168f7265e99dfab62efe669cbf21a3170754ad855009bcf2"
+  },
+  "395d643937e9064e042d9962005a4a65d5ef4196228096c201ab7b5571677931": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "iplanet_legacy_system_file_fragment",
+    "evidence_sha256": "11de82141838627b2b2e8769671c5edb4f169d99dcad5797328aea14b5846ab6"
+  },
+  "618c8f20f99122036afbdb664425647a1d7bc6b8bc39c3f36e48849b0bfd450e": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "encoded_wordpress_system_file_read",
+    "evidence_sha256": "beba99fa5bcb1e60ab4e8b6cc5b69a32c6da460233de3917471161cb27060a63"
+  },
+  "578c2e33181d3b4d1f1d5aa31ec85598c8e59c0186d768d224b6e637277820e5": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "ideacms_field_sql_expression_fragment",
+    "evidence_sha256": "fe6701e45f32610bb680f5b5a40e2bbaf10a8c45cf98eb17262a15211ef63cff"
+  },
+  "7f64a420874e11036a0857ea1b003f1a36bddd1fcb1fe38015be61cce4d60e11": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "httpget_callback_fragment",
+    "evidence_sha256": "6d2501bf723ea22befc6d6ac263361fb2b84a83ad56239cd25745348e42a8c78"
+  },
+  "5001539df1b5323ff8ac7f48907cffa3f5a645a66c6ae75c0fdf6984271d5b33": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "youphptube_encoded_command_fragment",
+    "evidence_sha256": "154a94589b9f73490279d61896537796a4d51f32b03938d085633ba8389e29af"
+  },
+  "aac32608b5f3b68f5ae8a2560ddac3aa031d1e5f27f1f6443556e094cb90d38b": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "nas_encoded_id_command_fragment",
+    "evidence_sha256": "e70e25b7a2703c3f2cf8ba0f62d5d9ff67c78513292352aa27e55447e8f4180f"
+  },
+  "ed0415c26dc32774fb7f1b38d8fe40da7daf1063b2f3064e1eac2b91d6fb3e6c": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "fortinet_forged_admin_write_fragment",
+    "evidence_sha256": "25348daf6952a54e78d33340ab0ad5db686a9d51ac60c71f1a7f9f8aef3567bb"
+  },
+  "009fa116ece97cf79ead38a1b52d140631253a5a38cb93a01de920b235cdc6d6": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "acenter_encoded_sql_verification",
+    "evidence_sha256": "4298ef477b3cfec1ddd072703c9f4d2866cd8bfc6db6d63509d1b2b99157daba"
+  },
+  "e814ce9cc3067a566117c475838c7bd9e2685415fdd147ac16b5c763911c2f72": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "acenter_encoded_sql_verification",
+    "evidence_sha256": "4298ef477b3cfec1ddd072703c9f4d2866cd8bfc6db6d63509d1b2b99157daba"
+  },
+  "cde113e668490142d9dd5ecd87c1718abcd54381f947297ec9d8e278e460df58": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "bladex_default_key_nonexpiring_admin_token",
+    "evidence_sha256": "a6af153f9d81c376de31e67fdca7598b80ad7e3b89a3f06cec0ca176b1ccc51b"
+  },
+  "d1b56526310eb6222d8d43f9311d6e2f5be1f3e747af2fbd654687b7834dc660": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "mantis_empty_hash_reset_probe",
+    "evidence_sha256": "54a7dc04a567640bd90578feddebef0e9906e028d98dd82146bd583fa7c0711e"
+  },
+  "d05ae462e5e09d97302b8658e0c98c44784742d19f72f4684122e94505e62bec": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "mantis_empty_hash_reset_probe",
+    "evidence_sha256": "54a7dc04a567640bd90578feddebef0e9906e028d98dd82146bd583fa7c0711e"
+  },
+  "030ffc97b9c69206315412fb6838d1322188f10e39c565bec8bae833b44fa618": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "encoded_export_config_traversal",
+    "evidence_sha256": "569f6fb5590c30649cb7c34bdb8e5f0884e963f65a666f81564ae395b567f733"
+  },
+  "65cccaf73379953f1acbee281d04ecf617be25157ced96e9d63fccf880ede469": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "encoded_export_config_traversal",
+    "evidence_sha256": "569f6fb5590c30649cb7c34bdb8e5f0884e963f65a666f81564ae395b567f733"
+  },
+  "3e67fa6246ec90afbf544a10e3f49ce9232ae4f545bc84bab4dfe8a4f380bc51": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "teamcity_jsp_dispatch_auth_bypass",
+    "evidence_sha256": "0cc53ed4437ad8468e1b0c4675ccd054a79b8c0b1712596d3d54786477aff3ab"
+  },
+  "a49743472a0d98d911dd426b72e1c6dda342808b38698a06db09a3c6bd2a5e65": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "tongda_encoded_sql_object",
+    "evidence_sha256": "e2e90154caa96f9b55e6405d2e2846374bfc0bdc730555bf2ee1d70b7ae3734c"
+  },
+  "87a5776e7e1c3fe0e5a47e061a14231df27685e60f6f0876818a4709efa7d020": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "favicon_scanner_file_callback",
+    "evidence_sha256": "3a3b9e8cc9c7da79a7cc245037c6411feb9ee883e3886ffdbc8c8557b446987b"
+  },
+  "14cb6cc472b492f3e8524c1a9672a82a61a26c1ce2820997d0d4ee202b3c24b6": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "xinhu_encoded_sql_delay",
+    "evidence_sha256": "063befb4537f715013157861bed9180c671e6a40cc2da72def901a7d8eac972b"
+  },
+  "205fb3259e9ea322220f2c24b5fce1c50f6ea2c7fb2e9aea85c98e1272622945": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "xinhu_encoded_sql_delay",
+    "evidence_sha256": "063befb4537f715013157861bed9180c671e6a40cc2da72def901a7d8eac972b"
+  },
+  "55bb92dd619e1e69cea75b848fe45cc3b9a87c2284923509dc2093d0517bac96": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "dedecms_numeric_zero_recovery_probe",
+    "evidence_sha256": "97d85c79bcd2d9fb5b60946e994b1d2998858ea13f253769c882c0d7f94ca8e2"
+  },
+  "2abf6ef1d77e3c1bdfa8abee8f57ae7a4ec2fdffec4d3748612cf51fa4cb8b4c": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "ivanti_epmm_aad_user_probe",
+    "evidence_sha256": "173c9118c6007c54e86c9d06350e902f447d4ec3776140f00dfe652741f2b2d9"
+  },
+  "abd53597515737dcd9cac69173e4ef72f66992fd88fa5eaae8f825b7b955dfff": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "ivanti_epmm_aad_user_probe",
+    "evidence_sha256": "173c9118c6007c54e86c9d06350e902f447d4ec3776140f00dfe652741f2b2d9"
+  },
+  "51aebbf0f1307018b9c7e22b71925df32bc4a1bf7a54a18617b87f2bf01263f7": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "ivanti_epmm_aad_user_probe",
+    "evidence_sha256": "173c9118c6007c54e86c9d06350e902f447d4ec3776140f00dfe652741f2b2d9"
+  },
+  "f6ee5c33c71a5eb044a74c919ab69c82c66bc44c2ad0c4c227d88487074e11cb": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "mantis_empty_hash_reset_probe",
+    "evidence_sha256": "7d185911601d7dcbfe16df4e0d775463fe8e6b3fa2c4624cef5ddcbe5f8ab29d"
+  },
+  "fb974a7d6ede88a08c20fcc2b0c3bd69d79b497916760b2d334366e20d04e5d3": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "mantis_empty_hash_reset_probe",
+    "evidence_sha256": "7d185911601d7dcbfe16df4e0d775463fe8e6b3fa2c4624cef5ddcbe5f8ab29d"
+  },
+  "63f3121bdc2f495de2a37eed224f71b441d124a7d84f7c9d53177b924368371a": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "crushftp_mangled_aws4_admin_auth",
+    "evidence_sha256": "e156265ac44f64a148fba25ec28207731615cfbe2df37efe7df7c217493c0da4"
+  },
+  "dc6eff551254a1d23a0dec7e24f5c340e8eecd982f45c5b529087f181d6996bc": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "encoded_wordpress_system_file_read",
+    "evidence_sha256": "beba99fa5bcb1e60ab4e8b6cc5b69a32c6da460233de3917471161cb27060a63"
+  },
+  "5f414250ff5864c1f25f0abff3f31192c3730adb5143951c56e5150ec601c920": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "encoded_wordpress_system_file_read",
+    "evidence_sha256": "beba99fa5bcb1e60ab4e8b6cc5b69a32c6da460233de3917471161cb27060a63"
+  },
+  "93f61c877074e9f0599b0180de56bf8ac30a0f6c1e2e57b74fe0a736911642b7": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "encoded_wordpress_system_file_read",
+    "evidence_sha256": "beba99fa5bcb1e60ab4e8b6cc5b69a32c6da460233de3917471161cb27060a63"
+  },
+  "bb82bd8815ea7f8c850f87fe8c77453c34b896d0cd9ab150f1f1fb9197424be9": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "encoded_wordpress_system_file_read",
+    "evidence_sha256": "beba99fa5bcb1e60ab4e8b6cc5b69a32c6da460233de3917471161cb27060a63"
+  },
+  "553badc98dfd8bd888c4b29f1d45b16cb92f969f5bfbb2bf8791d2915a88bca2": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "encoded_wordpress_system_file_read",
+    "evidence_sha256": "beba99fa5bcb1e60ab4e8b6cc5b69a32c6da460233de3917471161cb27060a63"
+  },
+  "0e0f08256d9a8fa5d028a2c0ecbcfe84065229fe29f6c86574c0ed5770e6f0f2": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "woocommerce_forged_admin_user_creation",
+    "evidence_sha256": "ce7acd793f43cfe4eaa02405caa5e2bfd0c8705940e6e7d1160fe7ffa38e2eb2"
+  },
+  "e29fd5c84d79a9cdc6c90c671422b0ff8390503bd9056423855fe3da962bbc08": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "woocommerce_forged_admin_user_creation",
+    "evidence_sha256": "ce7acd793f43cfe4eaa02405caa5e2bfd0c8705940e6e7d1160fe7ffa38e2eb2"
+  },
+  "d24816e364a30c90186cb82342434d69d8140f51a6e9312f6a32fbd407373045": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "netgear_fixed_password_disclosure_probe",
+    "evidence_sha256": "5bc55d3f6b9661b5962704e863de1bcd7334a929b682a1bffe54f05de62e9258"
+  },
+  "5841c756c83dff2c61ab5732cfe875af410baf7b3eedbe74216902abd0f4c4ee": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "encoded_nc_system_file_read",
+    "evidence_sha256": "91402f26f771ca69827ba1e31159631ea6c1ecf0085e5c33d33b6eb100c4d519"
+  },
+  "2a3b40f31a9427a4fdc0fc6e69eaee771a2e19199cc4923804e0cd4b1c1cabbb": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "woo_product_table_callback_verification",
+    "evidence_sha256": "46cba13abc7b7a07947e3d2422b2c5a59cb23a19ec0e923b831149b7d854f83c"
+  },
+  "5b8511cde00eff538beefb2edddd8522f05ff364e64cc4717ff8aa547b75333b": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "woo_product_table_callback_verification",
+    "evidence_sha256": "46cba13abc7b7a07947e3d2422b2c5a59cb23a19ec0e923b831149b7d854f83c"
+  },
+  "827a2a0dd55341e45b6aafca2767981e7d2854ca350f5007609a4f291332bbb1": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "tomcat_partial_put_serialization_probe",
+    "evidence_sha256": "ac98a5d16432ebc479607ec518e842a195354bad5efcba4280e0b1c7b1a3702d"
+  },
+  "7b4b16844e1531f41a51c034663110b1406f4598065d616a0fb54059b685d883": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "fortinet_forged_local_admin_key_write",
+    "evidence_sha256": "3fd13fdabe73ec646919603772561cf9bd7aaacf5728bf3b8601af73eef0ad33"
+  }
+}

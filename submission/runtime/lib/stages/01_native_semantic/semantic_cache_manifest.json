@@ -1,0 +1,45 @@
+{
+  "source_csv_sha256": "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+  "native_prediction_sha256": "7223e0464ea6b0c584825ab82de8d8dfddbecbca17a480175e4fc5a959bc88e5",
+  "model": "payload-qwen3-4b-local",
+  "weights_sha256": "8cdb57cbb880d313736a9bc4e3d3d2485f145b5e19cf33783746e753e82641fc",
+  "prompt_sha256": "7bae30cfc9046c14e913cd1c967039b97be08c3c413b6863a40f57d3d392744a",
+  "semantic_view_version": "semantic_request_view_v1",
+  "semantic_view_code_sha256": "03a0acffa5c1035621c433e9fc0a9f5c0a0e5dbb0cf44c6f2cd7b6882ae891e8",
+  "semantic_client_code_sha256": "7c58994d42237815b1f6c986e06426168b132c3c629983778a232ab66abb8b0f",
+  "context_code_sha256": "762040011e17b974877aa89b6b438270d85bb6902c9918016a6ca8cd72c2aa5d",
+  "pretrained_model": "Qwen/Qwen3-4B-Instruct-2507",
+  "quantization": "Q4_K_M",
+  "official_test_labels_available": false,
+  "internal_development_answers_read": false,
+  "training_performed": false,
+  "endpoint": "http://127.0.0.1:18086/v1/chat/completions",
+  "allowed_input_hashes": [
+    "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+    "ca4a6ddc6cfda4c67d336c0ff75c67efedaded0a034213c27d9dad6b22266182"
+  ],
+  "allowed_inference_profiles": [
+    "7bae30cfc9046c14e913cd1c967039b97be08c3c413b6863a40f57d3d392744a",
+    "efaaee9ab21b0e52b1380a7e2ffde0938923988bad980d2c92c7df723281cdff"
+  ],
+  "distinct_semantic_requests": 1567,
+  "eligible_rows": 2174,
+  "repaired_initial_responses": 73,
+  "remaining_invalid_responses": 0,
+  "first_pass_jsonl_sha256": "a38d7fe681ab80bf1f9586ae569891b2ce5baec4851cb49c7248bfcae10f1816",
+  "repair_jsonl_sha256": "02a0265999a110d124683d688ad64656ac475c34abbec90dd687bada1610a2a8",
+  "repair_profile_sha256": "31cf42b0f32ddbf180c4d25020f6987580e537d61a29dd2a3976abed8fd84864",
+  "frozen_cache_sha256": "31e95bb128a8034d04d90ff77c113504440a257f3327a49a1083d7917abd9cf9",
+  "cache_keys": "SHA256 of canonical request content; no event ID decisions",
+  "generation_completed": true,
+  "generation_device": "local NVIDIA RTX 4060 Laptop GPU",
+  "generation_engine": "llama.cpp b11669 CUDA 12.4",
+  "log_data_sent_to_external_model": false,
+  "external_model_assets": "exp/tools/local_payload_llm/asset_manifest.json",
+  "repair_trigger": "Only malformed first-pass JSON; no label-based retries",
+  "sources": {
+    "semantic_tasks.py": "03a0acffa5c1035621c433e9fc0a9f5c0a0e5dbb0cf44c6f2cd7b6882ae891e8",
+    "local_semantic.py": "7c58994d42237815b1f6c986e06426168b132c3c629983778a232ab66abb8b0f",
+    "semantic_gate.py": "3da476dd3888386d4bb97e4c24e7c778ca85bd641b96f4e350d114f3ad84d1d7"
+  }
+}

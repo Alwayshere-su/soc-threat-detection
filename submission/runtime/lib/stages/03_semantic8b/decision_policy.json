@@ -1,0 +1,23 @@
+{
+  "version": "payload_B_v4_reviewed",
+  "parent_official_score": 0.95655532,
+  "parent_artifacts": {
+    "decision_policy.json": "a2ebcbb1eee894e7825d12eba0a857fad5001011a405e95dadcaa1bfe1b7efc3",
+    "payload_policy_v3.py": "683a01a62c97f47f0bbe080355acb8278b55248c0b58b20b8efe97bb06c40951",
+    "predict.py": "a7a78fa6091751002cfbddc711223d4e6f6fa0474c6c7d6f3f4c5d0193b4465f",
+    "selective_subclass.py": "c86e66384311738ba24f005bf83a1d87a3cb8992a20ba8afb0833bb813c019ee"
+  },
+  "parent_directory": "D:\\@移动杯\\exp\\submissions\\20261016_B_payload_v3_selective",
+  "scope": "payload only; keep existing malicious predictions",
+  "native_version": "residual_payload_v4",
+  "semantic_gate": "independent_8b_evidence_gate_v3",
+  "event_ids_used_as_features": false,
+  "new_training_performed": false,
+  "private_answers_read": false,
+  "official_B_labels_available": false,
+  "default_semantic_mode": "reviewed",
+  "native_only_backup_mode": "native_only",
+  "cached_review": "Real local Qwen3-8B generation; frozen content-keyed replay, no remote inference",
+  "official_score": null,
+  "status": "prepared_unsubmitted"
+}

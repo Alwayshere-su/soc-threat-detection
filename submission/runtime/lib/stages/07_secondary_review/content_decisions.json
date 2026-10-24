@@ -1,0 +1,614 @@
+{
+  "ad3d538dfcb4ed1eef97e5a307a43ea2ecf9288f2a60da7188d7155a7cb3c91b": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "nginx_resource_parser_probe",
+    "reason": "将文本资源作为父路径访问PHP测试文件，符合解析/路径探测",
+    "evidence_sha256": "4ece16e39d16868467b538b4d5787ca8254bba863a0ba0b74ebf5cec97e7c073",
+    "reference": "",
+    "review_approved": true
+  },
+  "46f449c68543a19a1c887fd66eaddb03ac923c4eee7ba0a19c0c1d92ce198304": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "php_route_confusion_probe",
+    "reason": "非普通参数形式的PHP脚本路由组合，符合路由解析探测",
+    "evidence_sha256": "0ec8ced4700273c8650df04b3c34925db8273faeee375048c5a0c25f01ad60f5",
+    "reference": "",
+    "review_approved": true
+  },
+  "0ad289a63173dd7498eed260bdf152837b1b32d26e05faa5ec33e3c886f2ad98": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "php_route_confusion_probe",
+    "reason": "非普通参数形式的PHP脚本路由组合，符合路由解析探测",
+    "evidence_sha256": "f61b8825d6c4713e8a346ba3b6fc8189f64c56ddeafda6e5556d33c0498b76d0",
+    "reference": "",
+    "review_approved": true
+  },
+  "67f40cb2b0f5569ddef23870dd10d9efcec2ab0350db5e10e452e056ecedc6a8": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "php_route_confusion_probe",
+    "reason": "非普通参数形式的PHP脚本路由组合，符合路由解析探测",
+    "evidence_sha256": "69ce2cc55fb08f3c10fc2c19c7979f65f0f0bdc6db88b2a69bf20ae86543f8dc",
+    "reference": "",
+    "review_approved": true
+  },
+  "92f01e01d9df0adaf683f65bdc6c16a872132d425fda62a2e7919c20998d19a5": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "php_route_confusion_probe",
+    "reason": "非普通参数形式的PHP脚本路由组合，符合路由解析探测",
+    "evidence_sha256": "3f5ea3464b77b3cee5025658ef54d4cadda8875036eec34031b369bf19037a7c",
+    "reference": "",
+    "review_approved": true
+  },
+  "b62da681166edc04993ad70ebf6f5457af7769517ddca513731b96c1106594cc": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "owncloud_graphapi_credential_disclosure",
+    "reason": "直接访问官方明确要求删除的凭据暴露脚本，属于CVE-2023-49103利用尝试",
+    "evidence_sha256": "7ff3b60f43beb61548a1f86040eba77ed1529190c806e453b2852b72045ab321",
+    "reference": "https://owncloud.com/security-advisories/disclosure-of-sensitive-credentials-and-configuration-in-containerized-deployments/",
+    "review_approved": true
+  },
+  "970b3d91ac657379b38e4696f10feb1e15e6b9ebd730e3c2c92377ffad10650e": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "script_image_type_mismatch",
+    "reason": "上传头中脚本后缀与图像类型矛盾，未显示脚本执行代码",
+    "evidence_sha256": "d8d3201fb2e669bd7a753842c23d388881a53a48dfa507db7b4aa1a089daf93e",
+    "reference": "",
+    "review_approved": true
+  },
+  "b4af82b1a97edaad5981f13df3fb7df24ab425118839dd7e50f936b186920f72": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "script_image_type_mismatch",
+    "reason": "上传头中脚本后缀与图像类型矛盾，未显示脚本执行代码",
+    "evidence_sha256": "2c37c7295f8c36ec20bf0cad2d5952c111ae15b3fad78dc64ce185ece2727093",
+    "reference": "",
+    "review_approved": true
+  },
+  "89ea4175629f3a4272d95a964b6d04451f1aed9f8583de36f091827f38f101c2": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "trailing_dot_script_upload_probe",
+    "reason": "初始化上传指定脚本后缀加尾点，属于扩展名解析探测",
+    "evidence_sha256": "cbc9d8dc5e9b9df7714bee535c330d3969af97da8b35c58646694f795dda834f",
+    "reference": "",
+    "review_approved": true
+  },
+  "9b7cc954ac743c84c735669ae117aaa8c2db6c68b5525977b3b6fc1e102dbc27": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "confluence_expression_injection",
+    "reason": "引号闭合、表达式及类对象访问组成输入逃逸，而非普通搜索字符串",
+    "evidence_sha256": "8f50b947e2e185eeca20bc4ebcbebb160507c7ed7936068d05972709e4168996",
+    "reference": "https://www.thezdi.com/blog/2021/9/21/cve-2021-26084-details-on-the-recently-exploited-atlassian-confluence-ognl-injection-bug",
+    "review_approved": true
+  },
+  "9a658f8fa11950eb71a5764622829dd7440fa06e5ffb1b2663cc550d09a2a831": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "malformed_parent_path_probe",
+    "reason": "请求目标含畸形父目录结构，符合目录探测",
+    "evidence_sha256": "9636c34abb7cf02ad8b74366616eb83ac1d7bc5cc1085e749cbb5e8e943c9b95",
+    "reference": "",
+    "review_approved": true
+  },
+  "f5e5f03f837f5d8547b75b648f294176d82f4910a100763174524848646352a7": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "malformed_parent_path_probe",
+    "reason": "请求目标含畸形父目录结构，符合目录探测",
+    "evidence_sha256": "e7858009832eea77e734d9ebdf09eca60dfd45271b5062711d035a647e95190f",
+    "reference": "",
+    "review_approved": true
+  },
+  "b854dc6b2a85d2e5eaa0221d8966eeb4919e7d5dd6223138e1554088f17582e0": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "semicolon_metrics_probe",
+    "reason": "诊断路由前插入分号路径段，符合路由/权限过滤探测",
+    "evidence_sha256": "c9a51746d41ef316d8296a534568a3cbc38f8e9a6c8c0dc31c41ad188b3680db",
+    "reference": "",
+    "review_approved": true
+  },
+  "0e1f22d1a2ec5142101a09dad60e3f0e84f68cf34fa7ae211a31e447f3b8c3f6": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "semicolon_metrics_probe",
+    "reason": "诊断路由前插入分号路径段，符合路由/权限过滤探测",
+    "evidence_sha256": "a2a2e12c9bd6bcb9fd5ed343d4e2fdac61457b613764e829dc6f2b0b19df70dc",
+    "reference": "",
+    "review_approved": true
+  },
+  "3d926128e5e7fa2c18510fdebe4c8dc53476b8bf10a633006b3df65dd03d4d81": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "jolokia_arbitrary_file_operation",
+    "reason": "远程诊断执行动作指定临时文件，符合公开任意文件读取探测组合",
+    "evidence_sha256": "a64db15fb18419cba67ed209252f0011de5f4e2ad38edba9fad9e8f61b8aed72",
+    "reference": "https://www.tenable.com/plugins/was/113200",
+    "review_approved": true
+  },
+  "1a043543ccef6d024a30d66c4b232d13186450ceb72a6e258f0d166f05f6fabc": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "webhook_route_confusion_probe",
+    "reason": "受保护集成列表路由附加webhook白名单后缀，符合鉴权路由探测",
+    "evidence_sha256": "d0593cd0f6abbb1bb8d930facb34b73593cee8da1a9b758054f314eea08f12a7",
+    "reference": "",
+    "review_approved": true
+  },
+  "4edd16c2a6c32c59809497b2425c664939b2ad6674da282c6b78ca212a096253": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "webhook_route_confusion_probe",
+    "reason": "受保护集成列表路由附加webhook白名单后缀，符合鉴权路由探测",
+    "evidence_sha256": "c9e00bba3e1e60aa130d4ce1d7f9024c4f20f57982dd33f02fbdeebec698e2dd",
+    "reference": "",
+    "review_approved": true
+  },
+  "8f6d4bffcf137b806cf31217548633c84cf0bea3d4edbf4021f55256ac8478f6": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "exchange_proxy_route_probe",
+    "reason": "自动发现接口配合用户信息符号及OWA路由，属于特殊后端路由探测",
+    "evidence_sha256": "094b1d3c607874b15b3fdc5adec22fc155763d03c8ae49cbcac71620cd8c0714",
+    "reference": "",
+    "review_approved": true
+  },
+  "a0e9c0b185a4c6c5704fc37717f97b0d9083fac69029154666a5df3dc4064f92": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "configuration_backup_probe",
+    "reason": "直接定位配置备份数据文件，支持敏感资源发现探测",
+    "evidence_sha256": "0e541edc690f15cbd00f675f976cb44dbf6e2e459191371996afa71cf24340a5",
+    "reference": "",
+    "review_approved": true
+  },
+  "7bf98adbeee1d72d02a2eec4979db69fb4b8bf515e3122e4b817488484570237": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "device_password_disclosure",
+    "reason": "特定设备命令直接获取用户名和密码，符合公开凭据泄露利用参数",
+    "evidence_sha256": "133b9a2bfbefaa3c8d5557020817fc8eac6953275c54f7cab84b6a0e8d5558d0",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2025-26001",
+    "review_approved": true
+  },
+  "0a2a3d8724b4095b63496070b4afb5ba4e792df8bde77b00e185b3150a728565": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "device_password_disclosure",
+    "reason": "特定设备命令直接获取用户名和密码，符合公开凭据泄露利用参数",
+    "evidence_sha256": "69ee1dae5f67ef8e2b8e6f33c89f976953fe5c069f85b493d7eabd9ce368b457",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2025-26001",
+    "review_approved": true
+  },
+  "6197da764968608279a3f943cf156aa4393b747adc0807c8c7755310e66db6f7": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "device_password_disclosure",
+    "reason": "特定设备命令直接获取用户名和密码，符合公开凭据泄露利用参数",
+    "evidence_sha256": "97b2898332fd3dd45b6e34e8eac96e7e854c666d0fff4d7917d017cacea9b406",
+    "reference": "https://nvd.nist.gov/vuln/detail/CVE-2025-26001",
+    "review_approved": true
+  },
+  "97ab9f8ceb97bde4e72e935e6b96855793b2f216742aaf5085948011b6df6026": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "jolokia_arbitrary_file_operation",
+    "reason": "远程诊断执行动作指定临时文件，符合公开任意文件读取探测组合",
+    "evidence_sha256": "d92861c95ca722f7dae57029f8350e9c9f28e15178c0bc80d5d69f5be8033d72",
+    "reference": "https://www.tenable.com/plugins/was/113200",
+    "review_approved": true
+  },
+  "780fb8ed0228edd608cbe1d933e04271f585f0c42e1472cc644f3f4d55592bf8": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "jolokia_arbitrary_file_operation",
+    "reason": "远程诊断执行动作指定临时文件，符合公开任意文件读取探测组合",
+    "evidence_sha256": "a625fde74114a63b3c5ccad16839a27b566e1437678a8c3dd127843833bc1065",
+    "reference": "https://www.tenable.com/plugins/was/113200",
+    "review_approved": true
+  },
+  "bdba31ee06722c5644de2d108d568fa7a5e2aa1e09d2abc2d27115bf4162a6b9": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "jolokia_arbitrary_file_operation",
+    "reason": "远程诊断执行动作指定临时文件，符合公开任意文件读取探测组合",
+    "evidence_sha256": "4fdf7af66dbd859eb156ed33c448f12cef1bd15231e09867aab91d01f9570ccf",
+    "reference": "https://www.tenable.com/plugins/was/113200",
+    "review_approved": true
+  },
+  "a589fb2259d13160372ce8df02d37d03fb193447b515be6902fde7b8f53e6941": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "jsherp_semicolon_privilege_bypass",
+    "reason": "白名单路由配合多级分号路径穿越，目标是用户数据读取；与普通列表查询不同",
+    "evidence_sha256": "0df47205326c8f78560ac5d64ae0079e87fe1be949cf261e2991016c5a3e4906",
+    "reference": "",
+    "review_approved": true
+  },
+  "8436dc409c7e096cc841d411214bda5f422f3d3ff9c5b5274aebc2d73e8d1673": {
+    "parent_label": "suspicious",
+    "label": "malicious",
+    "family": "jsherp_semicolon_privilege_bypass",
+    "reason": "白名单路由配合多级分号路径穿越，目标是用户数据读取；与普通列表查询不同",
+    "evidence_sha256": "270ad837bd023730254eb779d0ad46e6f22ee71250aab8b93c1a73928299b917",
+    "reference": "",
+    "review_approved": true
+  },
+  "a5a5b40cef4c4fd3d867c1844a51397c9cacef61c8dc9d8a9bcdedd111310e8c": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "webserver_log_discovery",
+    "reason": "语言资源目录内定位Web服务器日志，支持信息暴露/资源发现探测",
+    "evidence_sha256": "c189c769ef824ea4e19bc56a56c2b0015fcea44ed4c2083ac73792f0051b9954",
+    "reference": "",
+    "review_approved": true
+  },
+  "e0b52cf639519ce75f5a01a3a7d2164a23198142b4480f79200327a7aee4b858": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "webserver_log_discovery",
+    "reason": "语言资源目录内定位Web服务器日志，支持信息暴露/资源发现探测",
+    "evidence_sha256": "21687b2594635312b7a270e74d4ab6b1af0b3bef8da19890e458ad3b48b8066c",
+    "reference": "",
+    "review_approved": true
+  },
+  "a19f82d557e5a5aef41bd68ab1e5a651b3e4106bf1153a3add3be477171d67b2": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "webserver_log_discovery",
+    "reason": "语言资源目录内定位Web服务器日志，支持信息暴露/资源发现探测",
+    "evidence_sha256": "c6be9d31145c03d1fbca682a63744e49e30c87bab81f2eaa6ea8243085a80297",
+    "reference": "",
+    "review_approved": true
+  },
+  "14788ecb57c1474c481cb0dea7170e93831896e159fd14cf592acfb6de374624": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "bf50e7302992c95b23bc6681974d6afdb676d22ee6fed3ad942b9da507fa38d8",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "23832ef51d2927f7a556847a8c5494ea61609f51f8180a58313ce2fba19bc511": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "ab598de2560841e67c082c4d5d0dca36bcb94802fbc57add25f0af83e747cc1a",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "f1afcfc151eaa5113072f01573bd6479f8da7ddac745a75a49301f3992b47f9f": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "3faf0071516e111f1d28b2b910095189d0785d0f7c595b3f1b1f72c86bce661a",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "7d8146cb5dbfb22e6ded36d142ef06df53941cf40c0666bd12cb6c7e6979d6c3": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "f8e359d21a435f60a06b029f8e03f6ee663ead085a6304a4390ea21084e9e365",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "218d01a45d4170e6c93d280587c579b0c7cccaff4cb820b61e30ee93491ffbff": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "105f7a577bb8985e5cb4d1ca34166af3b7bd14e74a6a8837abc79e5340701f62",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "1fab99c16eeb7b9efdbfc09e4cc27863a30fc4e3ae3eec6826a16f327d75f12d": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "b8416484a6ef6248e2ccd2816503047c15ce4e63fed3dbf1443d86d86e41259c",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "8ffef7c0aa9183c5bf0d65a0a271648e0dcd242a8c761c20fe1d1735f3edcd38": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "312a2c777950fdfdf31b6997d5f592aecf6fe1a22c9a88580efcb6ddd511c6d2",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "f48c9d511be9f5b1aed29ae9172b5aa0f6b7ed7b5d48a1a63628d3b61edaa892": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "ad6ba44e6daa8a6514f3400d037bbb5622e648de7201011ad5a7178bbcf7676b",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "7bd0a35ce00b4f8a6c440b62fca2cd778b47817b9d3b6ff7ba04a8364be7719a": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "913e70b29bf830bb5c1c036b54a6fe01f8ef9fef9f5d92fc6aeda0a830a6c1a5",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "6cc77c1feb0c20acbfb744cae6d2ecc7cedc1dc669e5ede3934a78037640b01d": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "761076994f4849aadd9248c9c3beb77be79b4aa2781c7910524ec01f070b3e5f",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "0be06ca78d1b20df88b1d012fae8a4f6b2b930cd5b93ec21fd7dfab599cf5002": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "mantis_empty_confirmation_bypass",
+    "reason": "管理员确认流程使用空校验哈希，与CVE-2017-7615未授权访问利用结构一致",
+    "evidence_sha256": "201011d02e1abdc64be44b17bd72926ca66a0ae3e8518420a518916c46e1a057",
+    "reference": "https://openwall.com/lists/oss-security/2017/04/16/3",
+    "review_approved": true
+  },
+  "ef6ca7640ab2a0dd1b5f1d79e6cfa45dd91bb67f3750678ee20fa20cff1c1e23": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "jira_internal_build_metadata_probe",
+    "reason": "使用特殊资源路由读取Jira内部构建元数据，偏向版本/路径探测",
+    "evidence_sha256": "1c969fb593081550bc019fbb5b229ec9d3f74cfc77ee596c4a8891c0a367d2b1",
+    "reference": "",
+    "review_approved": true
+  },
+  "2d4e98dbe42b2f75d605f6c105fded22348b8e9fa3afeae8bf61b4fed8917f04": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "netgear_recovered_password_disclosure",
+    "reason": "口令恢复页配合特制鉴权绕过参数，与公开凭据泄露利用一致",
+    "evidence_sha256": "39bfbc066df563859708a9e8b386236b763b2337846b8e2e82fccfad0046e273",
+    "reference": "https://ssd-disclosure.com/ssd-advisory-netgear-dgnd3700v2-preauth-root-access/",
+    "review_approved": true
+  },
+  "695d0d687d3a2fa116bd7382d9fd1f9c90cbcdf225235c2b691c1c21882bb9c5": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "netgear_recovered_password_disclosure",
+    "reason": "口令恢复页配合特制鉴权绕过参数，与公开凭据泄露利用一致",
+    "evidence_sha256": "d6c595aec995e6475d4046727e7e71dfa059fd7e563674eb300c9e9da3b67b24",
+    "reference": "https://ssd-disclosure.com/ssd-advisory-netgear-dgnd3700v2-preauth-root-access/",
+    "review_approved": true
+  },
+  "8458d5c8629c912369676ec83f6c3a60c11fdae2e87505f70d16105234696553": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "login_redirect_callback_probe",
+    "reason": "登录跳转参数指定专用回连域名，支持开放重定向探测；不宣称已发生SSRF",
+    "evidence_sha256": "1f1b8ef4db690738c6995f5d6875cd18d917a90a08cde948b850406812ff3aff",
+    "reference": "",
+    "review_approved": true
+  },
+  "c3f3a8485bdbac2d6504e7063c2ddd797b6081e20c865e8bfc3a15d81e102106": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "1854a6c70cb4c402773441e184ce3716563c65549d653635c10035ecfaf84874",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "f3c20c00d273fdd82695b8ceb8e314e4de3ef3f23a33111182a80d8c191aac1f": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "114de369274a753676f73884730edfb9e4e184a358d148baa845ed90d7ba8f2a",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "bd84e21b5e77a28bba6af349a6c98bbbd02530c161c47d6871cebfa59deb7465": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "d87b6cbf5edd097423727711550e014e1ac0d36894b85e8901395ba71fddeb64",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "73e84e207ab32f51b4f9212466e85e95d526e7eed56924b3bf86ef79e9157fc6": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "7684cbb2dbbf1e64af98b4a893f8eb8a9addf614b1e23f97b17e55282ccee8e7",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "da61684f7afc79cf93872665297c35a0ed86d8f55dde9eeebdd2b25387655db7": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "5452d50c36afbcb0c96563d2d2f0713e04d3b238d3307c2936d3d3c268e86586",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "4f8f23e52ebe1e616611c8bf45f62dc2e198f0c294c4a365d9c1b7e125111639": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "9b338f048e3faae18b44ed135d61a12253bc1ed6ea5a0cdc9c08c3d9920c6d3c",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "56bed5e8109b5545a4f66cf83ee225b3488eb4ed3121ae7f9d8feaab81379f8b": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "bdf8a0d3e292573443492b4677af44ddd3e0e5052673bca9c147b4c9989665f6",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "ef6c2a4852c9a95a1edd55ff3936cb54d8ae183bb3912a80843fd91d82492aa9": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "fefdfe91c7568e8307dca71156e8759bcb3ed09a8203302822cf8f07615f352b",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "d87b98327d5f5f94f4838fd3072081d919f03be3b0ace097b853adaa87ce14ac": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "4a73c8620f405bdf697da36a32812eae3eaf42bf01b12ba08b00bab8d41628ad",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "edb888da2a6051ee075886c7d04179cbf6b3461407291c00aa70e27641c287d3": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "4f0e5db7da1b2d6f2bf325453aae151e70a3c45b534bd6a58d9c74f810896131",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "fe474c108c39fc42671ce1e8ab253e3c9d1b45d35f4d982a69724985b1b9ed51": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "7d62e832117a25eeba9e0d869da54454a378036ae708339ea9c2156ac8b04de4",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "6ea48160ccb0b734cf28e9e940d6033cab46ef8a9a32252038fa5d8a2d683378": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "03bc74c29620af8f37225c8a2662b2ce28c1915062da1f7100f42c194fc10026",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "86e6bf99038a61f6ed282468fc10d33588e459b8dc639b243802655549798a8f": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "memberhero_arbitrary_callback",
+    "reason": "特定未认证AJAX动作配合任意PHP回调选择，属于CVE-2022-0885利用尝试",
+    "evidence_sha256": "1f2f0bcbce6ac586db90f979883ea5b622745de58af0db208b61d074baf53c5e",
+    "reference": "https://patchstack.com/articles/patching-remote-code-execution-in-the-member-hero-plugin/",
+    "review_approved": true
+  },
+  "fd346c6a7ac44bbad05213ca6ab3a3d232ff20686ad7e6cdaadbd1d253ddf362": {
+    "parent_label": "malicious",
+    "label": "benign",
+    "family": "business_agent_database_query",
+    "reason": "业务MCP/SQL查询接口接收完整区县查询，客户端上下文完整，未见拼接逃逸",
+    "evidence_sha256": "6d3fac21ec20b69d2a67398327b41919f6fe995892e5b81cc386d5bde51f1ee8",
+    "reference": "",
+    "review_approved": true
+  },
+  "ab78da1c57112455c097ea9796f67af09b89ed58858da940a6b22bc84e0c40b7": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "diagnostic_command_separator_probe",
+    "reason": "网络诊断目标使用管道字符包裹测试标记，支持命令注入探测但未确认完整命令",
+    "evidence_sha256": "dc6eb8e05df8801afb43ab9430f92af3931ea0bc1342b034299753497455897f",
+    "reference": "",
+    "review_approved": true
+  },
+  "8a00e63cb485883d4eaaef872e417424890052ef1ff844acdb7a52d8ce3f5edb": {
+    "parent_label": "benign",
+    "label": "suspicious",
+    "family": "semicolon_upload_parser_probe",
+    "reason": "脚本路径拼接分号和图片后缀，属于服务器扩展名解析探测",
+    "evidence_sha256": "6e439c1d9bf3a652988628f3cc77cccaea359c29fdd2e7af4a5998236e97d41a",
+    "reference": "",
+    "review_approved": true
+  },
+  "dc32ba3380ae9db010761a0c752b9459cc1f6aff41f4d2e60f4d1f14f8164197": {
+    "parent_label": "malicious",
+    "label": "benign",
+    "family": "business_soap_function_query",
+    "reason": "完整SOAP选择操作调用业务函数，SQL位于协议允许的查询字段，无注入闭合或附加语句",
+    "evidence_sha256": "a74d07604af0d6044363efb8cf152559d137e3c239fd45b0d6c64533370b7275",
+    "reference": "",
+    "review_approved": true
+  },
+  "6b946e6748956d62df73994c0f945a815cc03ea120b6f0a1ba2c7100ac8eab61": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "absolute_login_directory_upload",
+    "reason": "文本内容伪装图片，绝对落地位置指定到登录模块目录，支持任意位置写入探测",
+    "evidence_sha256": "a874ceaf2cb8e097cf19fed9a8fba84c27ee550e453df77dd2d5585d122b60a9",
+    "reference": "",
+    "review_approved": true
+  },
+  "0cb09bae3403c1c8b5756ef8c36fc20b2c6acf238b86b4a9fbe623462bfd86cd": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "absolute_login_directory_upload",
+    "reason": "文本内容伪装图片，绝对落地位置指定到登录模块目录，支持任意位置写入探测",
+    "evidence_sha256": "a64d927e82579140cc2ec473c01e8c2afd9280735720e24f571a1de000e20451",
+    "reference": "",
+    "review_approved": true
+  },
+  "c522655db08adcb524d95f9dc531b0518939926ac0b0603913b169376331058d": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "absolute_login_directory_upload",
+    "reason": "文本内容伪装图片，绝对落地位置指定到登录模块目录，支持任意位置写入探测",
+    "evidence_sha256": "fb21dcccdb0b787a3561aa5890ecf2b156a6fc4eaa487961b47dc7ec8ed8371e",
+    "reference": "",
+    "review_approved": true
+  },
+  "9c4934254160bfa746737b5592d4cbdd6e47956094fdd4c179aefe735a3879ba": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "confluence_expression_injection",
+    "reason": "引号闭合、表达式及类对象访问组成输入逃逸，而非普通搜索字符串",
+    "evidence_sha256": "76b3c5e8be8cb0cc77d69e22eaefddcc75761c13a956193717c7cb62a18654fe",
+    "reference": "https://www.thezdi.com/blog/2021/9/21/cve-2021-26084-details-on-the-recently-exploited-atlassian-confluence-ognl-injection-bug",
+    "review_approved": true
+  },
+  "57a0b71f08db2acee3b4d0ef9dfbccac223fb290fb2519486366cec9935d881c": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "confluence_expression_injection",
+    "reason": "引号闭合、表达式及类对象访问组成输入逃逸，而非普通搜索字符串",
+    "evidence_sha256": "2231d9552a03d5767dc24d374f31777c665b6e601ef44357c8cfb4590cf53ca5",
+    "reference": "https://www.thezdi.com/blog/2021/9/21/cve-2021-26084-details-on-the-recently-exploited-atlassian-confluence-ognl-injection-bug",
+    "review_approved": true
+  },
+  "377f8dcf3569d9c179441e8cbeb41bfeed53dd07060f2e7f006e59dbb51a1c8e": {
+    "parent_label": "benign",
+    "label": "malicious",
+    "family": "armember_account_takeover",
+    "reason": "特制重置动作直接为管理员设置新口令，与CVE-2022-1903利用结构一致",
+    "evidence_sha256": "006f46e31602f0a71193c9f0db2c0859228d18a3209524d326871bb0c673d0a2",
+    "reference": "https://wpscan.com/vulnerability/28d26aa6-a8db-4c20-9ec7-39821c606a08/",
+    "review_approved": true
+  }
+}

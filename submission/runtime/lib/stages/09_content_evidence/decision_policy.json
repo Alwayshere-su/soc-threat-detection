@@ -1,0 +1,25 @@
+{
+  "version": "payload_deepcheck56_v1",
+  "parent_official_score": 0.97031485,
+  "parent_sha256": "5c109ee6500e81deb2f99b4c2c3bef74d0323600b91c575a7e4ce062c3983632",
+  "parent_artifacts": {
+    "decision_policy.json": "d4e5dc1fa1ef87f2c2ba9bcba3507f935687cb29d94d4e8f232de42e95635268",
+    "predict.py": "4e442205db177252723050b1d8acc2260caba507e7d1b801187f9c64b8b67764"
+  },
+  "allowed_input_hashes": [
+    "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+    "ca4a6ddc6cfda4c67d336c0ff75c67efedaded0a034213c27d9dad6b22266182"
+  ],
+  "approved_rows": 56,
+  "distinct_content_keys": 56,
+  "core_changes": 0,
+  "content_evidence_recomputed": true,
+  "classification_does_not_use_event_IDs": true,
+  "private_answers_read": false,
+  "new_API_calls": 0,
+  "official_score": null,
+  "prediction_sha256": "8c43cee4841e1949502ad9ed0abc8ffecd6f4d0abb0c70a725991155ce55b2b9",
+  "previous53_candidate_merged_without_solr2": true,
+  "new_file_probe_rows": 5,
+  "source_previous_policy_sha256": "bce7671324f693330eba8739706cef6ecd57e0e927dbcda1286dcd3d9f20f61a"
+}

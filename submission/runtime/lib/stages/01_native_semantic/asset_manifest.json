@@ -1,0 +1,27 @@
+{
+  "assets": [
+    {
+      "file": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "url": "https://huggingface.co/lmstudio-community/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf?download=true",
+      "sha256": "8cdb57cbb880d313736a9bc4e3d3d2485f145b5e19cf33783746e753e82641fc",
+      "bytes": 2497280448
+    },
+    {
+      "file": "llama-b11669-bin-win-cuda-12.4-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cuda-12.4-x64.zip",
+      "sha256": "c2da1f73ed176ae093ac5aceb978a7b167a16113f6d74c6789eeaee2135cb8dc",
+      "bytes": 266582698
+    },
+    {
+      "file": "cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/cudart-llama-bin-win-cuda-12.4-x64.zip",
+      "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+      "bytes": 391443627
+    }
+  ],
+  "runtime": "D:\\@移动杯\\exp\\tools\\local_payload_llm\\runtime_b11669_cuda12_4",
+  "model_LFS_sha256_verified": true,
+  "upstream_model": "Qwen/Qwen3-4B-Instruct-2507",
+  "quantization_repository": "lmstudio-community/Qwen3-4B-Instruct-2507-GGUF",
+  "competition_data_exported": false
+}

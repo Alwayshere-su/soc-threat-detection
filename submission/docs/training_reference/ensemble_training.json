@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "train_sha256": "217667a8c2ec23234f71c0ad2fad5b3225d6b763b578ef4312bd347d33bc1538",
+    "feature_version": "portable_v1",
+    "split_seed": 42,
+    "val_frac": 0.1,
+    "weight_mode": "balanced",
+    "num_rounds": 3000,
+    "unknown_category": -1,
+    "encoding": "training_vocabulary_numeric_v1",
+    "valid_sha256": "d08f2164aa28f6755dd7dea9e67f11246ca0ab163c067ae35009a4e60b9ee638"
+  },
+  "models": [
+    {
+      "seed": 42,
+      "leaves": 127,
+      "learning_rate": 0.05,
+      "best_iteration": 1318,
+      "seconds": 20.918107271194458
+    },
+    {
+      "seed": 1,
+      "leaves": 63,
+      "learning_rate": 0.06,
+      "best_iteration": 1608,
+      "seconds": 95.6592321395874
+    },
+    {
+      "seed": 777,
+      "leaves": 255,
+      "learning_rate": 0.04,
+      "best_iteration": 285,
+      "seconds": 55.48622703552246
+    }
+  ],
+  "raw": {
+    "rows": 2014052,
+    "errors": 73,
+    "accuracy": 0.9999637546597605,
+    "macro_f1": 0.9991958653545329,
+    "final_score": 0.9988767058910817,
+    "components": {
+      "tb_f1": 0.9993295678927309,
+      "tb_rec": 0.9986600341415959,
+      "threat_rec": 0.9976114323462677,
+      "macro_f1": 0.9991958653545329,
+      "soft": 0.9999637546597605,
+      "bal_acc": 0.9984076215641785,
+      "rec": {
+        "benign": 1.0,
+        "suspicious": 0.9997773765058006,
+        "malicious": 0.995445488186735
+      }
+    },
+    "label_order": [
+      "benign",
+      "suspicious",
+      "malicious"
+    ],
+    "confusion_matrix": [
+      [
+        1959573,
+        0,
+        0
+      ],
+      [
+        9,
+        40418,
+        0
+      ],
+      [
+        64,
+        0,
+        13988
+      ]
+    ]
+  },
+  "holdout": {
+    "rows": 205688,
+    "errors": 0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "final_score": 1.0,
+    "components": {
+      "tb_f1": 1.0,
+      "tb_rec": 1.0,
+      "threat_rec": 1.0,
+      "macro_f1": 1.0,
+      "soft": 1.0,
+      "bal_acc": 1.0,
+      "rec": {
+        "benign": 1.0,
+        "suspicious": 1.0,
+        "malicious": 1.0
+      }
+    },
+    "label_order": [
+      "benign",
+      "suspicious",
+      "malicious"
+    ],
+    "confusion_matrix": [
+      [
+        189973,
+        0,
+        0
+      ],
+      [
+        0,
+        4542,
+        0
+      ],
+      [
+        0,
+        0,
+        11173
+      ]
+    ]
+  },
+  "model_sha256": "84840f5a76ef1789d1571153c0ba620fb4fb5b338ef26f9470f07f2e75de65f6"
+}

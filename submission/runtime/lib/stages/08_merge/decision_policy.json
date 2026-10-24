@@ -1,0 +1,23 @@
+{
+  "version": "reviewed68_plus_reviewed69_disjoint_union_v1",
+  "approved_rows": 137,
+  "prior68": 68,
+  "new69": 69,
+  "overlap": 0,
+  "parent_official_score": 0.96761301,
+  "parent_prediction_sha256": "2f31d680a9dc349ee250608566c1c544631fbc0e35dfd8a79c010d980f2686e8",
+  "parent69_prediction_sha256": "32f8a9fb5e70e5f816d54fdf7093868608394f90d5ffb89e3245f8b408200071",
+  "component_manifest_hashes": {
+    "lib/stages/07_secondary_review/artifact_manifest.json": "49c465323f14d5d4fabdf9ddce8e6913ac78e46d0c9c6810ac3fe9755f61263c",
+    "lib/stages/06_evidence_review/artifact_manifest.json": "dc098e5b98f520c2a8fe023b9a78c398f6aa1b6f5c67d3fe8bd952aea8e73383"
+  },
+  "allowed_input_hashes": [
+    "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+    "ca4a6ddc6cfda4c67d336c0ff75c67efedaded0a034213c27d9dad6b22266182"
+  ],
+  "expected_prediction_sha256": "5c109ee6500e81deb2f99b4c2c3bef74d0323600b91c575a7e4ce062c3983632",
+  "original_core_50000_unchanged": true,
+  "new_API_calls": 0,
+  "private_answers_read": false,
+  "official_score": null
+}

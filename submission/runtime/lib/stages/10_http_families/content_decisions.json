@@ -1,0 +1,176 @@
+{
+  "7668253aca373ac2b24ff2f139ebcd604d146ad5544b8c6d57333ad0c8e889db": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "e56343f204aae40f2c4586be7c98b582fc833aa786ebbdee9f37206145fc6064"
+  },
+  "36f79a97bb4f147dad7206cbcbff4d58915efb645213e5ece46a780bb8f6e6bc": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "8f8e931dec940cf2c2839c9893af6e962fdf92fafcaa986f0f46012986b3421a": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "c4aad4a1ccd5e0b955e68e42e6ce6ee5299c1d1f3002b0503b4116a3bb777043": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "6e8ee4ed1c8248ce041f9f7e1095a965d0af4e13c143bc09ed55eea20ed1dd9c": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "f106a37bea16be1e0ce1020953daee6e19f7b077095f3db7c2d54f04a9c619f0": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "68dd0fec550d16fa0cd658b2aff1bd229d4fb4db74b3cceb0d4c2280249e20d4": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "c6f752ebc7686f4d79744f145d146d2780802c14cdfa8fbbbad156fea4ba9ec0": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "03b24e847ea52a0119979beff1420a16aa9b17818f6f6554db87e8d80ae50797": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "2e13c5b3d7af4337937dc7e08e174823d858fa442a2b3f1d9f77aafde4680ede": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "bc81c2064ead81ad0c23a1b299b1a2350607463fc9145538d8d6ce12ab3f1c40": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "2bfd3417f47a2017ffe7b3577adc38bac2973f49c80f2b9384a0322e5b765fe1": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "30416c583f96e44fbafa9f6f70e651c8df9023e1d2253b597e86d32aad17048b": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "63129ef620ee22c0d431dea5ee225a13c8552128e270228a15bd8fc3d87690c7": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "48eed475c555c2ae7fbbd82b15e922a26131a0a64a0732595be01dbec9fce946": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "homeassistant_tab_or_fragment_auth_traversal",
+    "evidence_sha256": "1027511d843ac723e4de360849c9fc4d2d4c07f29a3caf2c879dd3cd4384a719"
+  },
+  "395205a6ce42773020f397805559f8440c778f209487492e8feda8ebd0900c14": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "ivanti_cookie_encoded_execution",
+    "evidence_sha256": "c8d4a8b295a44dbfc8f309d439d976dde39a499ec4bdac4edffdcf07531a815a"
+  },
+  "348e1aa766e5ca0003a83d82261f1794a0d7e007439529a4bf076fdd0cf74c52": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "lync_encoded_callback_probe",
+    "evidence_sha256": "cceafd45690fa371feb8233102d3da5f5e1ae8108c92230dd9e6b16860473b7c"
+  },
+  "7ed6b90ea5331b1c2bbdfc3f29167b7f5b2d54bca47756985a4d9c875614c027": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "lync_encoded_callback_probe",
+    "evidence_sha256": "cceafd45690fa371feb8233102d3da5f5e1ae8108c92230dd9e6b16860473b7c"
+  },
+  "c8ff6f0f743d4d7a810d0e964029b315a84bc922713ab326fb03f9003018977a": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "kkfileview_encoded_svg_xss",
+    "evidence_sha256": "5dda36be7ab573c1c4ef66cff60e091e7fbf8e0019692f28a1dbf7d750ecce64"
+  },
+  "577cdd9044be9ab14881fdd23db228c9eab810a7d563b2fbbafff3097d884176": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "kkfileview_encoded_svg_xss",
+    "evidence_sha256": "5dda36be7ab573c1c4ef66cff60e091e7fbf8e0019692f28a1dbf7d750ecce64"
+  },
+  "a73c7855343e2ab4baf834fe29f5eb9e107f97ed1f6e4330379e33bcc7d2acef": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "kkfileview_encoded_svg_xss",
+    "evidence_sha256": "5dda36be7ab573c1c4ef66cff60e091e7fbf8e0019692f28a1dbf7d750ecce64"
+  },
+  "7f72b48f090a3ef898a5f764112c33bc50d7c3d2260782b51bef1df34decb978": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "weathermap_known_file_write_probe",
+    "evidence_sha256": "da3563edc8d55a9cab4bb84bbf0143ae47f3cb4d1bb961e1caa5cffcc774dca5"
+  },
+  "9da8ff040975ef1f979fa51f4c2f6c32882b2c1baab99af0c0eca13b7e018bf3": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "weathermap_known_file_write_probe",
+    "evidence_sha256": "da3563edc8d55a9cab4bb84bbf0143ae47f3cb4d1bb961e1caa5cffcc774dca5"
+  },
+  "09ea3d9a3c1aa77073126a5455f9eedd5182b020083ba186919a7f4ef255e71f": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "flowise_encoded_traversal_upload_attempt",
+    "evidence_sha256": "ece5ed9d50092070db88dc3ea50f1f9c8b837239a7440842813599165676fcd1"
+  },
+  "c2b795a176902026db94d8fd8a8b0ff9f377d7823ce8ca6f0bf58f19ed4cc9e5": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "sophos_encoded_command_callback",
+    "evidence_sha256": "dd8560a52f564adb3c09c950dbc1c16f154d3dd47c49f63cac29a4dc1ccd7444"
+  },
+  "8d0709ce201258b4c1ba6d5251df0bcdb11516e47f83f3835acd5b14036927c0": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "sophos_encoded_command_callback",
+    "evidence_sha256": "dd8560a52f564adb3c09c950dbc1c16f154d3dd47c49f63cac29a4dc1ccd7444"
+  },
+  "595c6b1a635d744c5c33afb888af841025ed1ff23811fc339e80b2a067733067": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "sophos_encoded_command_callback",
+    "evidence_sha256": "dd8560a52f564adb3c09c950dbc1c16f154d3dd47c49f63cac29a4dc1ccd7444"
+  },
+  "24bb1c1de23c16d0fec2fef5e75344c0825a7ba487b66c8cd32fccfb40b849ec": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "sophos_encoded_command_callback",
+    "evidence_sha256": "dd8560a52f564adb3c09c950dbc1c16f154d3dd47c49f63cac29a4dc1ccd7444"
+  },
+  "6ff6903672e8c955b8a351f58ec724694f1c8e7396e402d7decd2b87612e73f0": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "sophos_encoded_command_callback",
+    "evidence_sha256": "dd8560a52f564adb3c09c950dbc1c16f154d3dd47c49f63cac29a4dc1ccd7444"
+  }
+}

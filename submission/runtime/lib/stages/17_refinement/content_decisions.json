@@ -1,0 +1,51 @@
+{
+  "52c166652a8e307d6e545eae7003409f4c6839675dfb34ca41f4dc9c8e231472": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "teamcity_explicit_public_path_admin_auth_bypass",
+    "evidence_sha256": "f93c4ae2862848130115db666e81da807f6cb56de1a1d011242253e0c4603dec",
+    "metadata_only": false
+  },
+  "0f2ca2634944cd8e9912ea1f9b1a557017d7151d0d071dfa8dba4caf686b58cb": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "hongjing_whitelist_namespace_admin_auth_bypass",
+    "evidence_sha256": "6b403aba70bbdd71cc6a6beacb77cc28fb52336ba329649eb8a39857bd640b0c",
+    "metadata_only": false
+  },
+  "0de8198e02b6ac4e48498b7645f28643014b0a152c61d69c294fb8e175d1e055": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "hongjing_whitelist_namespace_admin_auth_bypass",
+    "evidence_sha256": "6b403aba70bbdd71cc6a6beacb77cc28fb52336ba329649eb8a39857bd640b0c",
+    "metadata_only": false
+  },
+  "af0428b55c9abf99aa920e29dae96326ca69e79b28b44118f1fbd768959c91b9": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "hongjing_whitelist_namespace_admin_auth_bypass",
+    "evidence_sha256": "6b403aba70bbdd71cc6a6beacb77cc28fb52336ba329649eb8a39857bd640b0c",
+    "metadata_only": false
+  },
+  "d544ef140916775c90c57c62c1089c989bce5c805f5a221d1c7376a411568bf6": {
+    "before": "suspicious",
+    "after": "malicious",
+    "category": "hongjing_whitelist_namespace_admin_auth_bypass",
+    "evidence_sha256": "6b403aba70bbdd71cc6a6beacb77cc28fb52336ba329649eb8a39857bd640b0c",
+    "metadata_only": false
+  },
+  "75a17ddcbbc971962737bac4aa41c05781e5a37b76aa2fa9da610542a86e31a2": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "nacos_default_key_folded_jwt_user_creation",
+    "evidence_sha256": "e7466972b40d77b3ef643ef6648121d77745059ed6060bb340e14ba1595a1249",
+    "metadata_only": false
+  },
+  "4e84db16f0be19d24f4b8c937b2ea4276de1eb43ba286c526f1bbb5691c3700e": {
+    "before": "suspicious",
+    "after": "suspicious",
+    "category": "arcadyan_unencoded_info_path_probe",
+    "evidence_sha256": "4b0b18873495f1afba4c2288e86400a2f068acf66043e34c42e8025f5f263d3a",
+    "metadata_only": true
+  }
+}

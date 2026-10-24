@@ -1,0 +1,207 @@
+{
+  "name": "semantic_grouped",
+  "train_rows": 1791754,
+  "holdout_rows": 265117,
+  "augmentation_rows": 0,
+  "augmentation_kind": null,
+  "best_iteration": 1083,
+  "features": 95,
+  "seconds": 69.62722373008728,
+  "holdout_raw": {
+    "rows": 265117,
+    "errors": 0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "final_score": 1.0,
+    "components": {
+      "tb_f1": 1.0,
+      "tb_rec": 1.0,
+      "threat_rec": 1.0,
+      "macro_f1": 1.0,
+      "soft": 1.0,
+      "bal_acc": 1.0,
+      "rec": {
+        "benign": 1.0,
+        "suspicious": 1.0,
+        "malicious": 1.0
+      }
+    },
+    "label_order": [
+      "benign",
+      "suspicious",
+      "malicious"
+    ],
+    "confusion_matrix": [
+      [
+        248997,
+        0,
+        0
+      ],
+      [
+        0,
+        2400,
+        0
+      ],
+      [
+        0,
+        0,
+        13720
+      ]
+    ]
+  },
+  "development": {
+    "keyword": {
+      "rows": 2014052,
+      "errors": 17,
+      "accuracy": 0.9999915593043278,
+      "macro_f1": 0.9998665333864469,
+      "final_score": 0.9997732062171742,
+      "components": {
+        "tb_f1": 0.9998439522310242,
+        "tb_rec": 0.999687953156262,
+        "threat_rec": 0.9996040312645712,
+        "macro_f1": 0.9998665333864469,
+        "soft": 0.9999915593043278,
+        "bal_acc": 0.9997360208430476,
+        "rec": {
+          "benign": 1.0,
+          "suspicious": 0.9997773765058006,
+          "malicious": 0.9994306860233418
+        }
+      },
+      "label_order": [
+        "benign",
+        "suspicious",
+        "malicious"
+      ],
+      "confusion_matrix": [
+        [
+          1959573,
+          0,
+          0
+        ],
+        [
+          9,
+          40418,
+          0
+        ],
+        [
+          8,
+          0,
+          14044
+        ]
+      ],
+      "source_errors": {
+        "duo": {
+          "rows": 132,
+          "errors": 8,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 8
+        },
+        "duo_missing_product": {
+          "rows": 44,
+          "errors": 8,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 8
+        },
+        "symantec_dlp": {
+          "rows": 9,
+          "errors": 9,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 9
+        },
+        "missing_winlogbeat": {
+          "rows": 12909,
+          "errors": 0,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 0
+        },
+        "cef": {
+          "rows": 8761,
+          "errors": 0,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 0
+        }
+      }
+    },
+    "keyword_winlog6": {
+      "rows": 2014052,
+      "errors": 17,
+      "accuracy": 0.9999915593043278,
+      "macro_f1": 0.9998665333864469,
+      "final_score": 0.9997732062171742,
+      "components": {
+        "tb_f1": 0.9998439522310242,
+        "tb_rec": 0.999687953156262,
+        "threat_rec": 0.9996040312645712,
+        "macro_f1": 0.9998665333864469,
+        "soft": 0.9999915593043278,
+        "bal_acc": 0.9997360208430476,
+        "rec": {
+          "benign": 1.0,
+          "suspicious": 0.9997773765058006,
+          "malicious": 0.9994306860233418
+        }
+      },
+      "label_order": [
+        "benign",
+        "suspicious",
+        "malicious"
+      ],
+      "confusion_matrix": [
+        [
+          1959573,
+          0,
+          0
+        ],
+        [
+          9,
+          40418,
+          0
+        ],
+        [
+          8,
+          0,
+          14044
+        ]
+      ],
+      "source_errors": {
+        "duo": {
+          "rows": 132,
+          "errors": 8,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 8
+        },
+        "duo_missing_product": {
+          "rows": 44,
+          "errors": 8,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 8
+        },
+        "symantec_dlp": {
+          "rows": 9,
+          "errors": 9,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 9
+        },
+        "missing_winlogbeat": {
+          "rows": 12909,
+          "errors": 0,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 0
+        },
+        "cef": {
+          "rows": 8761,
+          "errors": 0,
+          "benign_false_positives": 0,
+          "threat_false_negatives": 0
+        }
+      }
+    }
+  },
+  "feature_version": "semantic_v2",
+  "training_source_sha256": "6b6d5e23caebfd1c4f6b70c9e58c27f437bca7f0cd26497eefa3e4908f2cb742",
+  "development_use": "evaluation only; not passed to fit or used for early stopping",
+  "model_sha256": "e2327e76ccf77a12ee8173d1794c995262afd04a76538c34cf4d8527b101898b",
+  "probabilities_sha256": "2a2c9c5f0a7f10f622ec39b34d5e25053ef5c84bf588809afcfcac606e232df6"
+}

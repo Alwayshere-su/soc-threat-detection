@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "archive": "D:\\@移动杯\\最终提交_0.97279254.zip",
+  "archive_sha256": "e8313f029aba74247b68e2fa5a323352d22d7faf4488633c813ff0fb029b8ad2",
+  "archive_bytes": 70261155,
+  "archive_crc_verified": true,
+  "all_archived_file_hashes_verified": true,
+  "manifest_files": 486,
+  "extracted_zip_fresh_inference_passed": true,
+  "parquet_input_tested": true,
+  "original_tree_access_blocked": true,
+  "network_disabled": true,
+  "prediction_sha256": "d792a4f9eb6327bf7b4af157e4e8940dd3310954a728e10db4f91f230a26189d",
+  "official_data_excluded_from_archive": true,
+  "private_answers_excluded_from_archive": true,
+  "training_source_preserved": true
+}

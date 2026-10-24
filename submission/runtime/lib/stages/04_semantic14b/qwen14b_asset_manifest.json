@@ -1,0 +1,12 @@
+{
+  "file": "Qwen_Qwen3-14B-IQ3_XS.gguf",
+  "url": "https://huggingface.co/bartowski/Qwen_Qwen3-14B-GGUF/resolve/bd080f768a6401c2d5a7fa53a2e50cd8218a9ce2/Qwen_Qwen3-14B-IQ3_XS.gguf?download=true",
+  "revision": "bd080f768a6401c2d5a7fa53a2e50cd8218a9ce2",
+  "sha256": "363c51dbaec3e2944f99738568960a92488487e218f1300918af71e9e3802ce5",
+  "bytes": 6375301152,
+  "pretrained_model": "Qwen/Qwen3-14B",
+  "license": "Apache-2.0",
+  "quantization": "IQ3_XS",
+  "runtime": "exp/tools/local_payload_llm/runtime_b11669_cuda12_4",
+  "competition_data_exported": false
+}

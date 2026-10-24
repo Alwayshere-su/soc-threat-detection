@@ -1,0 +1,338 @@
+{
+  "fb34bc713d1fa0d2d1132ed2908cd90427232c7eaaeaa4b10b58ff93f3a0ea5b": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "172b0fc99b92d8dd738b99ef25ff4dcbab4f823b889e6e832ff5f429877f3675": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "989c55848b6f1c63de7371249c094bdec3b13475c1ceab3cc6f3ad6e4ec732b9": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "99516107b2442397b8adb551d5fa079e5a92c332169cb1c811cd1277900aa3e3": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "6689b0d18b46d870658361cd5a891eeef1bdc9bde9a4758b615eb05aa539be8e": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "74cae9bc6b50a6b02e73f04453d253f4b95577e9aa2c57b8fa10214d57141ea6": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "c100df621a22e7d2fe4ac40396870fbce2a7a82815605e4c05918971978951ee": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "07842b1733482a8ec99253604406209d86cede2b1e091e4e77946d9d902424e8": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "8c46787096bf34739a1ed31b399c778c47638547716bde604fcb4b8032f5ce60": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "kemp_encoded_auth_probe",
+    "evidence_sha256": "91a28584b755ab40d714fe4a0d23e07e29e6dda5659ee44bff5f672048d74c7a"
+  },
+  "9beba625710a7eb316da28980f379eea4f5b9aa4caa8b991acde993a0812801a": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "whitespace_admin_auth_probe",
+    "evidence_sha256": "951b6b6815ebd182a66c84f15c19f8d3d079050ae03984cd4be590496706315f"
+  },
+  "1be92ff61c79e697e89a858032c4635b9b6db02c460f5a67202924c8eefb1287": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "whitespace_admin_auth_probe",
+    "evidence_sha256": "951b6b6815ebd182a66c84f15c19f8d3d079050ae03984cd4be590496706315f"
+  },
+  "4c4c3ffaa5766b1721bbf778f2a1281ba05c9d641d1ceb9f358893e7f0192c18": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "whitespace_admin_auth_probe",
+    "evidence_sha256": "951b6b6815ebd182a66c84f15c19f8d3d079050ae03984cd4be590496706315f"
+  },
+  "8d81132e11496f2e45d66d2daf8ce570ef1040d65050fcea39f132f86fe7f60c": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "whitespace_admin_auth_probe",
+    "evidence_sha256": "951b6b6815ebd182a66c84f15c19f8d3d079050ae03984cd4be590496706315f"
+  },
+  "a3266d9163df43d81956012df3d968265faa7e3263702462d21fa0e81ce1a4c3": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "whitespace_admin_auth_probe",
+    "evidence_sha256": "951b6b6815ebd182a66c84f15c19f8d3d079050ae03984cd4be590496706315f"
+  },
+  "2375ce0bb8c6c3e5545c38806088121a34820e52181f21fb3c153a4596db37ca": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "whitespace_admin_auth_probe",
+    "evidence_sha256": "951b6b6815ebd182a66c84f15c19f8d3d079050ae03984cd4be590496706315f"
+  },
+  "5c15595c4471cd3fb659ce4911fd304189e71bff745a90933c8de5563cd1eda7": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "homeassistant_known_auth_traversal",
+    "evidence_sha256": "d77dee9ad4e708fe0a636dd9d225c15d4c07fc4467eb61e4b8b99d7afa08dda3"
+  },
+  "9251cf2b399b96273d8b77cf222f1d8283a7f9b014a362254be4e44cffd41026": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "homeassistant_known_auth_traversal",
+    "evidence_sha256": "d77dee9ad4e708fe0a636dd9d225c15d4c07fc4467eb61e4b8b99d7afa08dda3"
+  },
+  "ea733737130ed792e3473f071778573adef6891fe691d0c1c330c549adae9964": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "encoded_unix_file_probe",
+    "evidence_sha256": "5293304d6dfd3dfa177874663c5085de36b5e85c1c332b521f523408ea43cdea"
+  },
+  "f894ee7c1b9bd7d4a0d17f8ded745dcf9ffcf1197d3bed642bc5b25da028b3b6": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "encoded_unix_file_probe",
+    "evidence_sha256": "5293304d6dfd3dfa177874663c5085de36b5e85c1c332b521f523408ea43cdea"
+  },
+  "c387289a1c212b2693350fa6d03a78f1f269443af58805ec6465e1dd90ad6946": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "thinkphp_execution_entry_probe",
+    "evidence_sha256": "99e6858aa065eaebb76b578fdb23a2b037f82299456ba24d0dfaf403afcb9bdd"
+  },
+  "ecd244ebcc18e52fa7b0031d973f5f5bd3dbec917608140eafe8111bd9593460": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "thinkphp_execution_entry_probe",
+    "evidence_sha256": "99e6858aa065eaebb76b578fdb23a2b037f82299456ba24d0dfaf403afcb9bdd"
+  },
+  "c184a2d068f7524985f7ff2b825785edbf3a8451c569e6798e658e98ce153e89": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "thinkphp_execution_entry_probe",
+    "evidence_sha256": "99e6858aa065eaebb76b578fdb23a2b037f82299456ba24d0dfaf403afcb9bdd"
+  },
+  "080bb1c6fc3384cf79d220e2292a67fc11e975676739892cea31cc67da122f60": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "jsoa_encoded_source_read_probe",
+    "evidence_sha256": "91d514d0c952b86ece9f0734a10c5bfc040f3c9300d3c02e8beceaba4bc4d0f2"
+  },
+  "c7799b630ee9eafa81a37524000b568f8c919ee2411e9e6d596897c8e055ae61": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "jsoa_encoded_source_read_probe",
+    "evidence_sha256": "91d514d0c952b86ece9f0734a10c5bfc040f3c9300d3c02e8beceaba4bc4d0f2"
+  },
+  "c38ff6c010fc401138230690d419444814a1020dc8e7fbe106deac2c9ebd450b": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "jsoa_encoded_source_read_probe",
+    "evidence_sha256": "91d514d0c952b86ece9f0734a10c5bfc040f3c9300d3c02e8beceaba4bc4d0f2"
+  },
+  "0623d39f434a9b1e749717fe4973a1c71b85096369ef7cd85fa0be3971432331": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "explicit_php_function_probe",
+    "evidence_sha256": "f1da153a7309148d43f6fdaa88bff311a79834bee898e65ca32e090a88ca4727"
+  },
+  "c2ebb09c4b1cbb24049c47960cf98e2bce86cc1116191bfa910fce9749c3a6cb": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "explicit_php_function_probe",
+    "evidence_sha256": "a22a5adc2491d7415443eb932be61ce1056628b52c516ec2b0ba6c80004cf663"
+  },
+  "fe70d81f296c7306f5946c25441b2165f2edcb212c7202165b2ddd211369dc23": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "encoded_windows_file_probe",
+    "evidence_sha256": "11f166b8561825aeade09ff51ec69099e34f70e90c29fd0d069866b5d7e44cd6"
+  },
+  "a6ee533c52ee078706921027e5e2aaffdb0a901a646e40902c01aba6b11866b1": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "encoded_windows_file_probe",
+    "evidence_sha256": "11f166b8561825aeade09ff51ec69099e34f70e90c29fd0d069866b5d7e44cd6"
+  },
+  "c6e915d026424e89357a47bc3018b13bb4004823e74b4508797429a5fcb1163c": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "encoded_windows_file_probe",
+    "evidence_sha256": "11f166b8561825aeade09ff51ec69099e34f70e90c29fd0d069866b5d7e44cd6"
+  },
+  "505c86862de05c9fe62703f80cb6d53fdc7af7ff2e1df00cd9536027ab4dfdaf": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "encoded_windows_file_probe",
+    "evidence_sha256": "11f166b8561825aeade09ff51ec69099e34f70e90c29fd0d069866b5d7e44cd6"
+  },
+  "ce180e00e81811af87a44c14b6aba279cab5b98932fcf083a64efd272392bf2f": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "encoded_windows_file_probe",
+    "evidence_sha256": "11f166b8561825aeade09ff51ec69099e34f70e90c29fd0d069866b5d7e44cd6"
+  },
+  "15a19a701a430a53d54d91d74d3e2cf8094ae0b2c4352b426a4e5c4bb0254446": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "encoded_windows_file_probe",
+    "evidence_sha256": "11f166b8561825aeade09ff51ec69099e34f70e90c29fd0d069866b5d7e44cd6"
+  },
+  "beb9ec11908f6ec6c53d18352234be7f44ff0c86de540572fbe9bb40aa87693b": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "uploaded_double_extension_script_probe",
+    "evidence_sha256": "db0b1941175f2dadbc3a5ab81ce48a091b69f35b1975d082456f159f4d6d3575"
+  },
+  "a8b4f749703a48eb770c8b2bd9d494310e33b74c2048a538a0d3af198326fb9d": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "uploaded_double_extension_script_probe",
+    "evidence_sha256": "747944148aa3e2145276ca636cac7b95e98050c8e15301bdc332f164f0394268"
+  },
+  "9a08000213c92c96d1b407f3dc2888f5fed49ea50a9fc88008b3df47a1a0d90b": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "uploaded_double_extension_script_probe",
+    "evidence_sha256": "72bad79c6f20ee7189ed8f2042ee64577c17868df281e2bcb789750c32212769"
+  },
+  "3f3ac549e54bf6ca06db69a1db96af56614bfc053bebb330d5d8677b0245b909": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "uploaded_double_extension_script_probe",
+    "evidence_sha256": "431c573eedfe9e759ebc081fa28324f4d375f2c09e2e19cda3eff4b3099b959d"
+  },
+  "d7d7096277d2c7386ee15241f203c72334af0bf92404be22348c14e4cac74374": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "uploaded_double_extension_script_probe",
+    "evidence_sha256": "aa99ec7a15a132943c1e22c673f2f896a46554ce9779aa9a35f07f86fa803039"
+  },
+  "bb679f60d9d1974689825dba1cf8bf4844aead11cd0ed0d76778d16aa7cfb1ec": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "stacked_sql_login_escape",
+    "evidence_sha256": "e829f84af222d182d66c445ef62410e1d108715b7cbfa352bed8a6edb35de2ae"
+  },
+  "229e671a64ad080f95232f53692fc31607c9387fd13bdce49d8f0639dbe6a599": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "stacked_sql_login_escape",
+    "evidence_sha256": "e829f84af222d182d66c445ef62410e1d108715b7cbfa352bed8a6edb35de2ae"
+  },
+  "a6c2113b20355db0c95d281403d1116623e5549715421315731f4644354198ef": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "mlflow_artifact_path_traversal",
+    "evidence_sha256": "831fe1b5bddabf7890fe3fdee8c8942a3824d7b50e5617dda24b631cd0b4158e"
+  },
+  "365c52d6dd255b24a7889c4485653685f5b8f1743c315cfe1b9ab1960276f21a": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "db30dd27386091eebda7b27c06671eab82564007ff1d8f8754d2fef7e6a2e8c8"
+  },
+  "dff92aff47867706b84904d23ab7298c283e8c79551333df6e4ff09bf88459a7": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "login_shell_pipe_probe",
+    "evidence_sha256": "6346c5db5ba30fc3739ef7753b209c7d9572c2f0b4c919e6290f45ad135b0782"
+  },
+  "6a111a0b560d280954cc5094ba1914adf75f3d7a11de0ba5afcf25684a3ba040": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "638cf413febb5440b73a5365e4e1df6fca750ee925734c1c421a75e9dd1377b9"
+  },
+  "350e7ea23b7cf133370866fe779e9affd546366d9960d4a717a89ae3b146eae0": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "681bd2add035d064ad87820ee7c736de606a6f2ec270460e084675a3f102fcea"
+  },
+  "6e2e1bf59c497c9b792d23bcdc4cbbf9cf86278be1935fe6b29ca2b3a891f795": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "2e0165c9ffdf3d6abe55d1f59d48d1cd7b8168cabfda2537ba1b61d1a267d9b5"
+  },
+  "e98eaf50e25041f8598d57f620fa7472501d4eebb2d633c4073ea4945630f12d": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "42e4e3910b73191fbeeb4a3d87f8cfac673a9376cd6aabc67a4e46ef9056a3d2"
+  },
+  "72355ed6f319b7cb690e6950d1a09804cbc0b19aec4431a887211a1d00fea4bc": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "94a66355875b165dc477ce3520c77c65850b3c16b366eac40a70727330a8715c"
+  },
+  "7933a49267a5507ae90d396c7ee655b816ed893325db858d8cf3076e9cdc85b2": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "b557bbfb03b2a56a88a60a7dfcfa2473cb00621089d907074628079d2fb96479"
+  },
+  "cf4b9c6d54e0ceb28cd994cd2e09145a6595f5a899eb5c7483dd6edadd5f7780": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "49ed6b197c604de7e62e601993cf358b4c897991fd8997e9d33642c8b0ba81e0"
+  },
+  "7b4f14e7c37035ef255b9c47733ddc0917c8e9199741a04f5bd99e038cd3b727": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "1d1ffcc41a930759b30693d11d4815fa5a71e9f51ac6886d58ad19be02601429"
+  },
+  "ee40f6035a0db4970e3833087f909e3b93cec4a00f9070fb579555af8c9ecdf8": {
+    "before": "suspicious",
+    "label": "malicious",
+    "category": "openam_typed_deserialization_attempt",
+    "evidence_sha256": "3b16e4b070b6e9d0b0ecf8aaafe6dbaab52832b783268463a880964759b20053"
+  },
+  "260f494e85537c3d34e32eccd6f11c3f5b724884575762869a529b43562db388": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "utf16_encoded_attachment_config_probe",
+    "evidence_sha256": "efa5e47d0fe2bda47250cdde9ebeaba0d2a7809679647adb91bd4a1322f8b8b8"
+  },
+  "fc3725334e2abc59fa49a984423f64e80b9909ed97713349e53999db2ee1c3e1": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "utf16_encoded_attachment_config_probe",
+    "evidence_sha256": "efa5e47d0fe2bda47250cdde9ebeaba0d2a7809679647adb91bd4a1322f8b8b8"
+  },
+  "66c3d51b58c1397bfc324dbdd35b42665b4ec10290a48ffee37f85df9b5b3b53": {
+    "before": "benign",
+    "label": "suspicious",
+    "category": "sitecore_parsecontrol_truncated_probe",
+    "evidence_sha256": "2b5fda7f1e5675105abb9265fb0a10b5ccf8104d25f8448df8dd0ec677dabe45"
+  },
+  "1ccde27f1bcef4e8a2402d2d6e62e408eefca5fd71595e3ac2ac5fbb5e9f719f": {
+    "before": "benign",
+    "label": "malicious",
+    "category": "fortinet_loopback_auth_bypass",
+    "evidence_sha256": "390dbecb5f522d2ba91cad531100e4f2ab770a35cb9e5475c947d4f737f956f4"
+  }
+}

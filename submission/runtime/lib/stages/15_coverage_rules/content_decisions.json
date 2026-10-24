@@ -1,0 +1,32 @@
+{
+  "64839d1ab0dbb1706c9ef792cb988e2ff60fb75274a9c308dbcba76b2d08d263": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "dahua_native_backdoor_credential_probe",
+    "evidence_sha256": "06294ee81646a773c0c4bcb35c71802036c94aa95938a0f8a3dd81ad4e677c4c"
+  },
+  "f41753b16316af3e852c21c93bfcdb3c2f41a784a995ed7be452b8e68a7cb88c": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "native_targethost_shell_separator_probe",
+    "evidence_sha256": "72155cc7ae73beef44a71d5fc4e20c7bcdef8610f38988fb5564c967cabb08a3"
+  },
+  "750344cf663e766aac4966a62c23edcb09881cb07199e749ec3f1e88e59536a9": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "native_numeric_login_quote_probe",
+    "evidence_sha256": "4ab61b45d789da75d4ae88e84621f7d5138b79d9f773028afd9f04b2e191b7d8"
+  },
+  "6a5e650c1662278154fa33a789cc93807ca9927872a6f540c563b8cfa262f941": {
+    "before": "benign",
+    "after": "suspicious",
+    "category": "native_ognl_arithmetic_login_probe",
+    "evidence_sha256": "861bc05e167e2303b8e0926ee3a97ffd5dfd9ce0676a70d49caf21e779214c39"
+  },
+  "69ff89c86f4052411629952d02fda88ddf3ded1e53d204f18aa0dbddcd8f4207": {
+    "before": "benign",
+    "after": "malicious",
+    "category": "hongjing_native_complete_system_file_cipher",
+    "evidence_sha256": "2ed76cd321331f19198534b1b0ad82662f46b9a44d4dbc3b63d92f067a086be1"
+  }
+}

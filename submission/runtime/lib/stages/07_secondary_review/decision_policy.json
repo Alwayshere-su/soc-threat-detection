@@ -1,0 +1,26 @@
+{
+  "version": "deepseek_medium_review_approved68_v1",
+  "baseline_prediction_sha256": "2f31d680a9dc349ee250608566c1c544631fbc0e35dfd8a79c010d980f2686e8",
+  "baseline_official_score": 0.96761301,
+  "baseline_artifacts": {
+    "content_decisions.json": "ffa3545b8eeb62c5de7173a9680ace9316fd1ca02d54acf6ba5a76db39e4224b",
+    "decision_policy.json": "b5a7d8be74ebb48f93565b5dde4af87976d753283256a23de617fd1c0dc36fbe",
+    "predict.py": "d641b6d1e4bf9b73c179a6c3e9c2214a842dba719e360bcf926c5910d567218f"
+  },
+  "allowed_input_hashes": [
+    "5a3db3aab57c33680e4627b0df75f9d526445c17964fd9f09d36f44eb6ae1d0b",
+    "ca4a6ddc6cfda4c67d336c0ff75c67efedaded0a034213c27d9dad6b22266182"
+  ],
+  "approved_rows": 68,
+  "scoped_rows": 116,
+  "distinct_content_keys": 68,
+  "allowed_business_correction_families": [
+    "business_agent_database_query",
+    "business_soap_function_query"
+  ],
+  "scope": "Only approved changes from the previously identified 116 medium-evidence disagreements",
+  "content_review_is_not_ground_truth": true,
+  "official_score": null,
+  "new_API_calls": 0,
+  "expected_prediction_sha256": "4b50b14d684e733b9ef68fb39728e351c5236560e46e2b595f083a3bcd6e1db1"
+}
